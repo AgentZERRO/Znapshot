@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 * * * *" # Default every hour (can be changed in config.json)
+    - cron: "${{ vars.INTERVAL_CRON || '*/30 * * * *' }}" # Loaded from repo variable or fallback
 
 jobs:
   generate-snapshot:
@@ -16,7 +16,6 @@ jobs:
         uses: actions/checkout@v3
         with:
           persist-credentials: false
-
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -34,10 +33,13 @@ jobs:
           CONFIG_FILE=config.json
           if [ -f "$CONFIG_FILE" ]; then
             INTERVAL=$(jq -r '.interval_cron' $CONFIG_FILE)
-            echo "interval_cron=$INTERVAL" >> $GITHUB_OUTPUT
+            if [ "$INTERVAL" == "null" ] || [ -z "$INTERVAL" ]; then
+              INTERVAL="*/30 * * * *"
+            fi
           else
-            echo "interval_cron=0 * * * *" >> $GITHUB_OUTPUT
+            INTERVAL="*/30 * * * *"
           fi
+          echo "interval_cron=$INTERVAL" >> $GITHUB_ENV
 
       - name: Check for [Auto] commit
         id: skip_auto
@@ -57,14 +59,14 @@ jobs:
 
       - name: Override cron if needed
         uses: peter-evans/create-or-update-comment@v2
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' && steps.skip_auto.outputs.skip != 'true'
         with:
           issue-number: 4
           body: "⏱️ Running scheduled snapshot job at ${{ steps.timestamp.outputs.now }}, ZEROFOREVER!"
           token: ${{ secrets.REPO_PAT }}
 
       - name: Run Snapshot Script
-        if: steps.skip_auto.outputs.skip != 'true'
+        if: steps.skip_auto.outputs.skip != 'true' && (github.event_name == 'push' || github.event_name == 'schedule')
         run: |
           python main.py || { echo 'main.py failed'; exit 1; }
           python dashboard.py || { echo 'dashboard.py failed'; exit 1; }
@@ -79,7 +81,7 @@ jobs:
           git ls-files --others --exclude-standard
 
       - name: Setup GPG and Commit
-        if: steps.skip_auto.outputs.skip != 'true'
+        if: steps.skip_auto.outputs.skip != 'true' && (github.event_name == 'push' || github.event_name == 'schedule')
         env:
           PERSONAL_TOKEN: ${{ secrets.GH_COMMIT_PAT }}
           GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
