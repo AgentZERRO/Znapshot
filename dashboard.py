@@ -78,4 +78,59 @@ stats_output = os.path.join(base_dir, "Statistics.json")
 with open(stats_output, "w") as f:
     json.dump(stats, f, indent=2)
 print(f"📊 Statistics saved to: {stats_output}")
+
+# Generate Markdown Table for Top 10 Holders
+holders_table_header = "| Rank | Address | Total Holdings |\n"
+holders_table_separator = "|------|---------|----------------|\n"
+holders_table_rows = ""
+
+for i, row in top_10.iterrows():
+    rank = i + 1
+    addr = row["Short Address"]
+    amount = row["Holdings"]
+    holders_table_rows += f"| {rank} | {addr} | {amount} |\n"
+
+top_10_table = holders_table_header + \
+    holders_table_separator + holders_table_rows
+
+# Generate Markdown Table for Detailed Token Statistics
+stats_header = "| Token | Total Holders | Total Tokens Held | Average Tokens | Max Tokens | Min Tokens |\n"
+stats_separator = "|-------|----------------|--------------------|----------------|-------------|-------------|\n"
+stats_rows = ""
+
+for token, data in stats.items():
+    stats_rows += f"| {token} | {data['total_holders']} | {data['total_tokens_held']} | {data['average_tokens']:.2f} | {data['max_tokens']} | {data['min_tokens']} |\n"
+
+detailed_stats_table = stats_header + stats_separator + stats_rows
+
+# Create full README section
+readme_section = f"""
+# Znapshot
+The automated snapshot taker using Caldera/Blockscout API and GitHub workflow 
+
+## 📊 Token Statistics (Auto-Generated)
+
+Here is a quick snapshot of the current token statistics and top holders.
+
+### 📈 Top 10 Token Holders
+
+![Top Holders Chart](top_10_holders_chart.png)
+
+#### 🔢 Top 10 Holders Table
+
+{top_10_table}
+
+### 📋 Detailed Statistics
+
+{detailed_stats_table}
+"""
+
+# Save to README_section.md
+readme_output = os.path.join(os.getcwd(), "README_section.md")
+with open(readme_output, "w") as f:
+    f.write(readme_section)
+
+print(
+    f"📝 README section with statistics and top holders saved to: {readme_output}")
+
 # %%
