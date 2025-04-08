@@ -126,7 +126,7 @@ Here is a quick snapshot of the current token statistics and top holders.
 """
 
 # Save to README_section.md
-readme_output = os.path.join(os.getcwd(), "README_section.md")
+readme_output = os.path.join(os.getcwd(), "README.md")
 with open(readme_output, "w") as f:
     f.write(readme_section)
 
