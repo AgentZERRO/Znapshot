@@ -24,6 +24,20 @@ if not os.path.exists(file_path):
 df = pd.read_csv(file_path)
 df.sort_values("Holdings", ascending=False, inplace=True)
 
+# Load Token Contracts using Tokens.json
+file_path = os.path.join(base_dir, "Tokens.json")
+if not os.path.exists(file_path):
+    raise FileNotFoundError(f"❌ Total.csv not found at {file_path}")
+
+with open(file_path, "r") as f:
+    tokens_list = json.load(f)
+
+tokens_dict = {
+    token["symbol"]: token
+    for token in tokens_list
+    if "symbol" in token
+}
+
 # Top 10 holders
 top_10 = df.head(10).copy()
 top_10["Short Address"] = top_10["Address"].apply(shorten)
@@ -86,7 +100,7 @@ holders_table_rows = ""
 
 for i, row in top_10.iterrows():
     rank = i + 1
-    addr = row["Short Address"]
+    addr = f'[{row["Short Address"]}](https://explorer.zero.network/address/{row["Address"]})'
     amount = row["Holdings"]
     holders_table_rows += f"| {rank} | {addr} | {amount} |\n"
 
@@ -99,7 +113,8 @@ stats_separator = "|-------|----------------|--------------------|--------------
 stats_rows = ""
 
 for token, data in stats.items():
-    stats_rows += f"| {token} | {data['total_holders']} | {data['total_tokens_held']} | {data['average_tokens']:.2f} | {data['max_tokens']} | {data['min_tokens']} |\n"
+    link = f'[{token}](https://highlight.xyz/mint/zero:{tokens_dict[token]["contract"]}:1)'
+    stats_rows += f"| {link} | {data['total_holders']} | {data['total_tokens_held']} | {data['average_tokens']:.2f} | {data['max_tokens']} | {data['min_tokens']} |\n"
 
 detailed_stats_table = stats_header + stats_separator + stats_rows
 
