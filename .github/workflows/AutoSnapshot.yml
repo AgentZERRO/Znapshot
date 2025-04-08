@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "${{ vars.INTERVAL_CRON || '*/30 * * * *' }}" # Loaded from repo variable or fallback
+    - cron: "*/30 * * * *"
 
 jobs:
   generate-snapshot:
