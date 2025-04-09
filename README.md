@@ -6,6 +6,12 @@ The automated snapshot taker using Caldera/Blockscout API and GitHub workflow
 
 Here is a quick snapshot of the current token statistics and top holders.
 
+1. Raw Tokens File: [Tokens.json](Tokens.json)
+2. Raw Leaderboard File: [Total.json](Total.json)
+3. Raw Statistics File: [Statistics.json](Statistics.json)
+
+---
+
 ### 📈 Top 10 Token Holders
 
 ![Top Holders Chart](top_10_holders_chart.png)
@@ -26,6 +32,8 @@ Here is a quick snapshot of the current token statistics and top holders.
 | 10 | [0x638***4020C](https://explorer.zero.network/address/0x63845Cd4d1a20c83DEe09BB6e0b66d421C84020C) | 6 |
 
 
+---
+
 ### 📋 Detailed Statistics
 
 | Token | Total Holders | Total Tokens Held | Average Tokens | Max Tokens | Min Tokens |
@@ -35,3 +43,12 @@ Here is a quick snapshot of the current token statistics and top holders.
 | [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 4623 | 4724 | 1.02 | 10 | 1 |
 | [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 3082 | 3145 | 1.02 | 10 | 1 |
 
+
+---
+
+Hope you enjoy it!
+Made with ❤️
+
+[![MΞHDI ⧗](https://img.shields.io/badge/M%CE%9EHDI-Zerion-darkblue)](https://link.zerion.io/)
+
+---
