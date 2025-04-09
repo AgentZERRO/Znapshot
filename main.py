@@ -142,12 +142,27 @@ page_size = 100
 total_items = len(total_data)
 total_pages = math.ceil(total_items / page_size)
 
+# Build metadata for 0.json
+pagination_index = {
+    "total_items": total_items,
+    "total_pages": total_pages,
+    "page_size": page_size,
+    "description": "Paginated snapshot of Total.json with 100 items per page",
+    "pages": [f"{i + 1}.json" for i in range(total_pages)]
+}
+
+# Save 0.json
+with open(os.path.join(pagination_dir, "0.json"), "w") as f:
+    json.dump(pagination_index, f, indent=2)
+print("✅ Saved pagination metadata to 0.json")
+
+# Save each page
 for page in range(total_pages):
     start = page * page_size
     end = start + page_size
     page_data = total_data[start:end]
 
-    file_name = f"{page + 1}-{total_pages}.json"
+    file_name = f"{page + 1}.json"
     file_path = os.path.join(pagination_dir, file_name)
 
     with open(file_path, "w") as out_file:
