@@ -1,4 +1,4 @@
-# %%
+# %% dashboard.py
 import os
 import json
 import pandas as pd  # type: ignore
@@ -127,6 +127,12 @@ The automated snapshot taker using Caldera/Blockscout API and GitHub workflow
 
 Here is a quick snapshot of the current token statistics and top holders.
 
+1. Raw Tokens File: [Tokens.json](Tokens.json)
+2. Raw Leaderboard File: [Total.json](Total.json)
+3. Raw Statistics File: [Statistics.json](Statistics.json)
+
+---
+
 ### 📈 Top 10 Token Holders
 
 ![Top Holders Chart](top_10_holders_chart.png)
@@ -135,9 +141,20 @@ Here is a quick snapshot of the current token statistics and top holders.
 
 {top_10_table}
 
+---
+
 ### 📋 Detailed Statistics
 
 {detailed_stats_table}
+
+---
+
+Hope you enjoy it!
+Made with ❤️
+
+[![MΞHDI ⧗](https://img.shields.io/badge/M%CE%9EHDI-Zerion-darkblue)](https://link.zerion.io/)
+
+---
 """
 
 # Save to README_section.md

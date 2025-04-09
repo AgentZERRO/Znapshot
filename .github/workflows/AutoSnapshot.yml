@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0,10,20,30,40,50 * * * *"
 
 jobs:
   generate-snapshot:
@@ -59,7 +59,7 @@ jobs:
 
       - name: Override cron if needed
         uses: peter-evans/create-or-update-comment@v2
-        if: github.event_name == 'schedule' && steps.skip_auto.outputs.skip != 'true'
+        if: github.event_name == 'schedule'
         with:
           issue-number: 4
           body: "⏱️ Running scheduled snapshot job at ${{ steps.timestamp.outputs.now }}, ZEROFOREVER!"

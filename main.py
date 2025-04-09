@@ -1,4 +1,4 @@
-# %%
+# %% main.py
 import os
 import json
 import requests
@@ -8,11 +8,14 @@ from datetime import datetime, timezone
 from collections import defaultdict
 import pandas as pd  # type: ignore
 import calendar
+import math
 
 # Setup paths
 base_dir = os.path.dirname(os.path.abspath(__file__))
 tokens_path = os.path.join(base_dir, "Tokens.json")
 index_file = os.path.join(base_dir, "index.json")
+total_json_path = os.path.join(base_dir, "Total.json")
+pagination_dir = os.path.join(base_dir, "Pagination")
 
 # Load Tokens.json
 if not os.path.exists(tokens_path):
@@ -124,6 +127,30 @@ for address, holdings in aggregated.items():
 df = pd.DataFrame(rows)
 df.sort_values("Holdings", ascending=False, inplace=True)
 df.to_csv(os.path.join(base_dir, "Total.csv"), index=False)
-df.to_json(os.path.join(base_dir, "Total.json"), orient="records", indent=2)
+df.to_json(total_json_path, orient="records", indent=2)
 
 print(f"\n✅ Aggregated {len(rows)} addresses. All done.")
+
+# Generate Pagination files
+print("\n📄 Creating paginated Total JSON files")
+os.makedirs(pagination_dir, exist_ok=True)
+
+with open(total_json_path, "r") as f:
+    total_data = json.load(f)
+
+page_size = 100
+total_items = len(total_data)
+total_pages = math.ceil(total_items / page_size)
+
+for page in range(total_pages):
+    start = page * page_size
+    end = start + page_size
+    page_data = total_data[start:end]
+
+    file_name = f"{page + 1}-{total_pages}.json"
+    file_path = os.path.join(pagination_dir, file_name)
+
+    with open(file_path, "w") as out_file:
+        json.dump(page_data, out_file, indent=2)
+
+print(f"✅ Pagination complete: {total_pages} pages saved in Pagination/")
