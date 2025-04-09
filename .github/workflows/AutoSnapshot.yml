@@ -66,7 +66,7 @@ jobs:
           token: ${{ secrets.REPO_PAT }}
 
       - name: Run Snapshot Script
-        if: steps.skip_auto.outputs.skip != 'true' && (github.event_name == 'push' || github.event_name == 'schedule')
+        if: (steps.skip_auto.outputs.skip != 'true' && github.event_name == 'push') || github.event_name == 'schedule'
         run: |
           python main.py || { echo 'main.py failed'; exit 1; }
           python dashboard.py || { echo 'dashboard.py failed'; exit 1; }
@@ -81,7 +81,7 @@ jobs:
           git ls-files --others --exclude-standard
 
       - name: Setup GPG and Commit
-        if: steps.skip_auto.outputs.skip != 'true' && (github.event_name == 'push' || github.event_name == 'schedule')
+        if: (steps.skip_auto.outputs.skip != 'true' && github.event_name == 'push') || github.event_name == 'schedule'
         env:
           PERSONAL_TOKEN: ${{ secrets.GH_COMMIT_PAT }}
           GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
