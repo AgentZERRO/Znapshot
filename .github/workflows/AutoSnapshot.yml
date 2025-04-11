@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 0,6,12,18 * * *"
+    - cron: "0 0,12 * * *"
 
 jobs:
   generate-snapshot:
@@ -34,10 +34,10 @@ jobs:
           if [ -f "$CONFIG_FILE" ]; then
             INTERVAL=$(jq -r '.interval_cron' $CONFIG_FILE)
             if [ "$INTERVAL" == "null" ] || [ -z "$INTERVAL" ]; then
-              INTERVAL="0 0,6,12,18 * * *"
+              INTERVAL="0 0,12 * * *"
             fi
           else
-            INTERVAL="0 0,6,12,18 * * *"
+            INTERVAL="0 0,12 * * *"
           fi
           echo "interval_cron=$INTERVAL" >> $GITHUB_ENV
 
