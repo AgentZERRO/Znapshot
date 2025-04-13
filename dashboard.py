@@ -125,6 +125,10 @@ readme_section = f"""
 # Znapshot
 The automated snapshot taker using Caldera/Blockscout API and GitHub workflow 
 
+You can find a good-looking version of the leaderboard [here](https://leaderboard.agentzerro.com/).
+
+![Banner](Assets/Banner.png)
+
 ## 📊 Token Statistics (Auto-Generated)
 
 Here is a quick snapshot of the current token statistics and top holders.
