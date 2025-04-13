@@ -126,6 +126,7 @@ for address, holdings in aggregated.items():
 
 df = pd.DataFrame(rows)
 df.sort_values("Holdings", ascending=False, inplace=True)
+df.insert(0, "Ranking", range(1, len(df) + 1))
 df.to_csv(os.path.join(base_dir, "Total.csv"), index=False)
 df.to_json(total_json_path, orient="records", indent=2)
 
