@@ -27,7 +27,7 @@ df.sort_values("Holdings", ascending=False, inplace=True)
 # Load Token Contracts using Tokens.json
 file_path = os.path.join(base_dir, "Tokens.json")
 if not os.path.exists(file_path):
-    raise FileNotFoundError(f"❌ Total.csv not found at {file_path}")
+    raise FileNotFoundError(f"❌ Tokens.json not found at {file_path}")
 
 with open(file_path, "r") as f:
     tokens_list = json.load(f)
@@ -75,7 +75,8 @@ print(f"🖼️ PNG chart saved to: {png_output}")
 # Generate Statistics
 stats = {}
 token_columns = [
-    col for col in df.columns if col not in ["Address", "Holdings"]]
+    col for col in df.columns if col not in ["Address", "Holdings", "Ranking"]
+]
 
 for token in token_columns:
     token_data = df[token]
@@ -98,8 +99,8 @@ holders_table_header = "| Rank | Address | Total Holdings |\n"
 holders_table_separator = "|------|---------|----------------|\n"
 holders_table_rows = ""
 
-for i, row in top_10.iterrows():
-    rank = i + 1
+for _, row in top_10.iterrows():
+    rank = row.get("Ranking", row.name + 1)
     addr = f'[{row["Short Address"]}](https://explorer.zero.network/address/{row["Address"]})'
     amount = row["Holdings"]
     holders_table_rows += f"| {rank} | {addr} | {amount} |\n"
@@ -113,7 +114,8 @@ stats_separator = "|-------|----------------|--------------------|--------------
 stats_rows = ""
 
 for token, data in stats.items():
-    link = f'[{token}](https://highlight.xyz/mint/zero:{tokens_dict[token]["contract"]}:1)'
+    contract_link = tokens_dict.get(token, {}).get("contract", "")
+    link = f'[{token}](https://highlight.xyz/mint/zero:{contract_link}:1)'
     stats_rows += f"| {link} | {data['total_holders']} | {data['total_tokens_held']} | {data['average_tokens']:.2f} | {data['max_tokens']} | {data['min_tokens']} |\n"
 
 detailed_stats_table = stats_header + stats_separator + stats_rows
@@ -157,7 +159,7 @@ Made with ❤️
 ---
 """
 
-# Save to README_section.md
+# Save to README.md
 readme_output = os.path.join(os.getcwd(), "README.md")
 with open(readme_output, "w") as f:
     f.write(readme_section)
