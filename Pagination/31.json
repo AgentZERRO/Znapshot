@@ -1,17 +1,7 @@
 [
   {
     "Ranking": 3001,
-    "Address": "0xeDF424654DCA1E5fa42a6f3fb20FCC068c17E736",
-    "Holdings": 3,
-    "ZERROS1E1": 1,
-    "ZERROS1E2": 1,
-    "ZERROS1E3": 0,
-    "ZERROS1E4": 0,
-    "ZERROS1E5": 1
-  },
-  {
-    "Ranking": 3002,
-    "Address": "0xEe14B39d8FeCf5ad384EF56bAdE03618c187b9d3",
+    "Address": "0xEFb50E59627f15b407898a4646D830380590Df6e",
     "Holdings": 3,
     "ZERROS1E1": 1,
     "ZERROS1E2": 1,
@@ -20,24 +10,34 @@
     "ZERROS1E5": 0
   },
   {
-    "Ranking": 3003,
-    "Address": "0xb01BB99CBABF6A84b0b6ff75dd54e2403545E2E0",
+    "Ranking": 3002,
+    "Address": "0x66596c77E062f73fbd154D7BbC66F41dfda9a277",
     "Holdings": 3,
     "ZERROS1E1": 0,
-    "ZERROS1E2": 1,
+    "ZERROS1E2": 0,
     "ZERROS1E3": 1,
-    "ZERROS1E4": 0,
+    "ZERROS1E4": 1,
+    "ZERROS1E5": 1
+  },
+  {
+    "Ranking": 3003,
+    "Address": "0x65eaC6aa92ff49a27b3e73A1FE8FAe9e5a2a726F",
+    "Holdings": 3,
+    "ZERROS1E1": 0,
+    "ZERROS1E2": 0,
+    "ZERROS1E3": 1,
+    "ZERROS1E4": 1,
     "ZERROS1E5": 1
   },
   {
     "Ranking": 3004,
-    "Address": "0xb06145Bc400005e39509A43ca62F521476aA7D4f",
+    "Address": "0xc02DbfBe95D89F0794e514683EC8CD2054aFeb61",
     "Holdings": 3,
-    "ZERROS1E1": 0,
+    "ZERROS1E1": 1,
     "ZERROS1E2": 1,
     "ZERROS1E3": 1,
     "ZERROS1E4": 0,
-    "ZERROS1E5": 1
+    "ZERROS1E5": 0
   },
   {
     "Ranking": 3005,
@@ -51,66 +51,16 @@
   },
   {
     "Ranking": 3006,
-    "Address": "0x437574946e139D9ae2F848407A889236e3ddCa61",
+    "Address": "0xaCE1f1c6c5c89AE3Fc3209ff92e7120fb74445aA",
     "Holdings": 3,
-    "ZERROS1E1": 0,
-    "ZERROS1E2": 1,
-    "ZERROS1E3": 1,
+    "ZERROS1E1": 3,
+    "ZERROS1E2": 0,
+    "ZERROS1E3": 0,
     "ZERROS1E4": 0,
-    "ZERROS1E5": 1
+    "ZERROS1E5": 0
   },
   {
     "Ranking": 3007,
-    "Address": "0xA7c7Edc67524091B6199DfC533b7fe28111F2009",
-    "Holdings": 3,
-    "ZERROS1E1": 0,
-    "ZERROS1E2": 1,
-    "ZERROS1E3": 1,
-    "ZERROS1E4": 1,
-    "ZERROS1E5": 0
-  },
-  {
-    "Ranking": 3008,
-    "Address": "0xa793169Df3114CfdA36A4bBC6f235C4100837765",
-    "Holdings": 3,
-    "ZERROS1E1": 0,
-    "ZERROS1E2": 1,
-    "ZERROS1E3": 1,
-    "ZERROS1E4": 1,
-    "ZERROS1E5": 0
-  },
-  {
-    "Ranking": 3009,
-    "Address": "0xEf03d5303484dBdED196BC0e3CD7e88d7E72557e",
-    "Holdings": 3,
-    "ZERROS1E1": 1,
-    "ZERROS1E2": 0,
-    "ZERROS1E3": 1,
-    "ZERROS1E4": 1,
-    "ZERROS1E5": 0
-  },
-  {
-    "Ranking": 3010,
-    "Address": "0xEd3512cD293C412625430C9560D21f8BaF0CcB63",
-    "Holdings": 3,
-    "ZERROS1E1": 1,
-    "ZERROS1E2": 1,
-    "ZERROS1E3": 1,
-    "ZERROS1E4": 0,
-    "ZERROS1E5": 0
-  },
-  {
-    "Ranking": 3011,
-    "Address": "0x41152ed9BC3585C8f752176601C6922748DD7CD2",
-    "Holdings": 3,
-    "ZERROS1E1": 0,
-    "ZERROS1E2": 1,
-    "ZERROS1E3": 2,
-    "ZERROS1E4": 0,
-    "ZERROS1E5": 0
-  },
-  {
-    "Ranking": 3012,
     "Address": "0x319C9f308E5B8069b4cDAA6F6d64dF9e56780Bbc",
     "Holdings": 3,
     "ZERROS1E1": 1,
@@ -120,8 +70,58 @@
     "ZERROS1E5": 1
   },
   {
+    "Ranking": 3008,
+    "Address": "0xaC4F12BB143B1789e73103Ef3893cb4c3C195408",
+    "Holdings": 3,
+    "ZERROS1E1": 0,
+    "ZERROS1E2": 1,
+    "ZERROS1E3": 0,
+    "ZERROS1E4": 1,
+    "ZERROS1E5": 1
+  },
+  {
+    "Ranking": 3009,
+    "Address": "0x5b86Acf276EaEF513810748091a02Bc96946B4c4",
+    "Holdings": 3,
+    "ZERROS1E1": 0,
+    "ZERROS1E2": 0,
+    "ZERROS1E3": 1,
+    "ZERROS1E4": 1,
+    "ZERROS1E5": 1
+  },
+  {
+    "Ranking": 3010,
+    "Address": "0xc55cFC3404a943A3de60891F45Ae9EA723Bd4546",
+    "Holdings": 3,
+    "ZERROS1E1": 1,
+    "ZERROS1E2": 1,
+    "ZERROS1E3": 1,
+    "ZERROS1E4": 0,
+    "ZERROS1E5": 0
+  },
+  {
+    "Ranking": 3011,
+    "Address": "0xC47cA8b521746931dafe39d1c9dc0F6Bb3F3FCe0",
+    "Holdings": 3,
+    "ZERROS1E1": 1,
+    "ZERROS1E2": 1,
+    "ZERROS1E3": 1,
+    "ZERROS1E4": 0,
+    "ZERROS1E5": 0
+  },
+  {
+    "Ranking": 3012,
+    "Address": "0x504B00E16053aD2f727Cf9D1770AA2aF75ECB3B9",
+    "Holdings": 3,
+    "ZERROS1E1": 2,
+    "ZERROS1E2": 1,
+    "ZERROS1E3": 0,
+    "ZERROS1E4": 0,
+    "ZERROS1E5": 0
+  },
+  {
     "Ranking": 3013,
-    "Address": "0x31b6aAc6220806251c5019077A911fb348590cB4",
+    "Address": "0x2Fe3DDF0A9e8ecBf981F6Cd64FAA198DC2fae261",
     "Holdings": 3,
     "ZERROS1E1": 1,
     "ZERROS1E2": 0,
@@ -131,37 +131,37 @@
   },
   {
     "Ranking": 3014,
-    "Address": "0x42805f020E1b7a32f23e859CAA60bAD0b74E01FF",
+    "Address": "0x41152ed9BC3585C8f752176601C6922748DD7CD2",
     "Holdings": 3,
     "ZERROS1E1": 0,
     "ZERROS1E2": 1,
-    "ZERROS1E3": 1,
-    "ZERROS1E4": 1,
+    "ZERROS1E3": 2,
+    "ZERROS1E4": 0,
     "ZERROS1E5": 0
   },
   {
     "Ranking": 3015,
-    "Address": "0x42E9ADA505f9844dD10978967D58350eb733B0B2",
+    "Address": "0xC224cd7Ab43c5150Dfc60B153a433a43600107F2",
     "Holdings": 3,
-    "ZERROS1E1": 0,
-    "ZERROS1E2": 1,
+    "ZERROS1E1": 1,
+    "ZERROS1E2": 0,
     "ZERROS1E3": 1,
     "ZERROS1E4": 1,
     "ZERROS1E5": 0
   },
   {
     "Ranking": 3016,
-    "Address": "0xa559c3C6aD9d6964df04a7b70e821590d35C393B",
+    "Address": "0xc1F58696369eEe0Be6fBe60CBff7a08bD0a8537A",
     "Holdings": 3,
-    "ZERROS1E1": 0,
-    "ZERROS1E2": 1,
+    "ZERROS1E1": 1,
+    "ZERROS1E2": 0,
     "ZERROS1E3": 1,
     "ZERROS1E4": 1,
     "ZERROS1E5": 0
   },
   {
     "Ranking": 3017,
-    "Address": "0x5E3AAB60Ca7164101C0e0836A68539f09e3976B1",
+    "Address": "0x5f7309040c8b9B73817907BabB2a1281e4D5CDe2",
     "Holdings": 3,
     "ZERROS1E1": 0,
     "ZERROS1E2": 0,
@@ -181,7 +181,7 @@
   },
   {
     "Ranking": 3019,
-    "Address": "0x5f7309040c8b9B73817907BabB2a1281e4D5CDe2",
+    "Address": "0x5E3AAB60Ca7164101C0e0836A68539f09e3976B1",
     "Holdings": 3,
     "ZERROS1E1": 0,
     "ZERROS1E2": 0,
@@ -191,27 +191,27 @@
   },
   {
     "Ranking": 3020,
-    "Address": "0xc1F58696369eEe0Be6fBe60CBff7a08bD0a8537A",
+    "Address": "0xa559c3C6aD9d6964df04a7b70e821590d35C393B",
     "Holdings": 3,
-    "ZERROS1E1": 1,
-    "ZERROS1E2": 0,
+    "ZERROS1E1": 0,
+    "ZERROS1E2": 1,
     "ZERROS1E3": 1,
     "ZERROS1E4": 1,
     "ZERROS1E5": 0
   },
   {
     "Ranking": 3021,
-    "Address": "0xC224cd7Ab43c5150Dfc60B153a433a43600107F2",
+    "Address": "0xa42cb879992060C937101Fb9194fb87317Ee759c",
     "Holdings": 3,
-    "ZERROS1E1": 1,
-    "ZERROS1E2": 0,
-    "ZERROS1E3": 1,
+    "ZERROS1E1": 0,
+    "ZERROS1E2": 1,
+    "ZERROS1E3": 0,
     "ZERROS1E4": 1,
-    "ZERROS1E5": 0
+    "ZERROS1E5": 1
   },
   {
     "Ranking": 3022,
-    "Address": "0xf5f862a8B4087B39e7aBF82C6c606a8B9D6f2fde",
+    "Address": "0x0775F7C8B3655ef66dCD1D7Fa002F7753E59939E",
     "Holdings": 3,
     "ZERROS1E1": 0,
     "ZERROS1E2": 1,
@@ -221,7 +221,7 @@
   },
   {
     "Ranking": 3023,
-    "Address": "0x728b60ea697D113f2E5B382aed68f539edE796BE",
+    "Address": "0x05067961bB5Ecc728cF2Caf6d43564f41FAf1209",
     "Holdings": 3,
     "ZERROS1E1": 0,
     "ZERROS1E2": 1,
@@ -231,7 +231,7 @@
   },
   {
     "Ranking": 3024,
-    "Address": "0xf352063bE1ddd2611eBb4A7af9ff95c61Dc9692A",
+    "Address": "0x04EF28d3FFfCEbD75B603326782024aE9390f5Fc",
     "Holdings": 3,
     "ZERROS1E1": 0,
     "ZERROS1E2": 1,
@@ -251,7 +251,7 @@
   },
   {
     "Ranking": 3026,
-    "Address": "0x04EF28d3FFfCEbD75B603326782024aE9390f5Fc",
+    "Address": "0xf352063bE1ddd2611eBb4A7af9ff95c61Dc9692A",
     "Holdings": 3,
     "ZERROS1E1": 0,
     "ZERROS1E2": 1,
@@ -261,7 +261,7 @@
   },
   {
     "Ranking": 3027,
-    "Address": "0x05067961bB5Ecc728cF2Caf6d43564f41FAf1209",
+    "Address": "0x728b60ea697D113f2E5B382aed68f539edE796BE",
     "Holdings": 3,
     "ZERROS1E1": 0,
     "ZERROS1E2": 1,
@@ -271,7 +271,37 @@
   },
   {
     "Ranking": 3028,
-    "Address": "0x7dDBECeEe84eb1ddA7D626893B156e6Dc9f906B5",
+    "Address": "0x1Cc4dCc185EBA33475d97afDc849AEDE65e8a244",
+    "Holdings": 3,
+    "ZERROS1E1": 0,
+    "ZERROS1E2": 0,
+    "ZERROS1E3": 1,
+    "ZERROS1E4": 1,
+    "ZERROS1E5": 1
+  },
+  {
+    "Ranking": 3029,
+    "Address": "0x437574946e139D9ae2F848407A889236e3ddCa61",
+    "Holdings": 3,
+    "ZERROS1E1": 0,
+    "ZERROS1E2": 1,
+    "ZERROS1E3": 1,
+    "ZERROS1E4": 0,
+    "ZERROS1E5": 1
+  },
+  {
+    "Ranking": 3030,
+    "Address": "0x2F60fDaF2d308e58fCce1e61ca6BD40527c4257F",
+    "Holdings": 3,
+    "ZERROS1E1": 1,
+    "ZERROS1E2": 1,
+    "ZERROS1E3": 0,
+    "ZERROS1E4": 0,
+    "ZERROS1E5": 1
+  },
+  {
+    "Ranking": 3031,
+    "Address": "0xEd3512cD293C412625430C9560D21f8BaF0CcB63",
     "Holdings": 3,
     "ZERROS1E1": 1,
     "ZERROS1E2": 1,
@@ -280,87 +310,47 @@
     "ZERROS1E5": 0
   },
   {
-    "Ranking": 3029,
-    "Address": "0xA894c5ef7A6C33E7043ef276307cAC91549C9b6c",
+    "Ranking": 3032,
+    "Address": "0xEf03d5303484dBdED196BC0e3CD7e88d7E72557e",
     "Holdings": 3,
-    "ZERROS1E1": 0,
-    "ZERROS1E2": 1,
+    "ZERROS1E1": 1,
+    "ZERROS1E2": 0,
     "ZERROS1E3": 1,
     "ZERROS1E4": 1,
-    "ZERROS1E5": 0
-  },
-  {
-    "Ranking": 3030,
-    "Address": "0xA8bdcE906925Aefe3CE7a6fC93Cb3C8c088c644B",
-    "Holdings": 3,
-    "ZERROS1E1": 0,
-    "ZERROS1E2": 1,
-    "ZERROS1E3": 1,
-    "ZERROS1E4": 0,
-    "ZERROS1E5": 1
-  },
-  {
-    "Ranking": 3031,
-    "Address": "0xA8D70d963cc2784Aa405e288c4Ca70D68c76397f",
-    "Holdings": 3,
-    "ZERROS1E1": 0,
-    "ZERROS1E2": 1,
-    "ZERROS1E3": 1,
-    "ZERROS1E4": 0,
-    "ZERROS1E5": 1
-  },
-  {
-    "Ranking": 3032,
-    "Address": "0x505e20c0Fb8252Ca7aC21d54D5432eccD4f2D076",
-    "Holdings": 3,
-    "ZERROS1E1": 3,
-    "ZERROS1E2": 0,
-    "ZERROS1E3": 0,
-    "ZERROS1E4": 0,
     "ZERROS1E5": 0
   },
   {
     "Ranking": 3033,
-    "Address": "0x8070856D6B3F9751dbc56F8E8f18f311b6be1d0E",
+    "Address": "0x30A359c3F0335E4ca5106414CFD79779e0F8102a",
     "Holdings": 3,
-    "ZERROS1E1": 3,
-    "ZERROS1E2": 0,
+    "ZERROS1E1": 1,
+    "ZERROS1E2": 1,
     "ZERROS1E3": 0,
     "ZERROS1E4": 0,
-    "ZERROS1E5": 0
+    "ZERROS1E5": 1
   },
   {
     "Ranking": 3034,
-    "Address": "0xaCE1f1c6c5c89AE3Fc3209ff92e7120fb74445aA",
+    "Address": "0xA7c7Edc67524091B6199DfC533b7fe28111F2009",
     "Holdings": 3,
-    "ZERROS1E1": 3,
-    "ZERROS1E2": 0,
-    "ZERROS1E3": 0,
-    "ZERROS1E4": 0,
+    "ZERROS1E1": 0,
+    "ZERROS1E2": 1,
+    "ZERROS1E3": 1,
+    "ZERROS1E4": 1,
     "ZERROS1E5": 0
   },
   {
     "Ranking": 3035,
-    "Address": "0xa9C022511C38127951fA71475e43f469e6ec8E1d",
+    "Address": "0xa793169Df3114CfdA36A4bBC6f235C4100837765",
     "Holdings": 3,
     "ZERROS1E1": 0,
     "ZERROS1E2": 1,
-    "ZERROS1E3": 0,
+    "ZERROS1E3": 1,
     "ZERROS1E4": 1,
-    "ZERROS1E5": 1
+    "ZERROS1E5": 0
   },
   {
     "Ranking": 3036,
-    "Address": "0xaa15026DE2458c691C7C1Daa836d079B93D31859",
-    "Holdings": 3,
-    "ZERROS1E1": 0,
-    "ZERROS1E2": 1,
-    "ZERROS1E3": 0,
-    "ZERROS1E4": 1,
-    "ZERROS1E5": 1
-  },
-  {
-    "Ranking": 3037,
     "Address": "0xaa23a779E0E09B40efBc4a5D8539517ffb2E6eF3",
     "Holdings": 3,
     "ZERROS1E1": 0,
@@ -370,14 +360,24 @@
     "ZERROS1E5": 0
   },
   {
+    "Ranking": 3037,
+    "Address": "0xaa15026DE2458c691C7C1Daa836d079B93D31859",
+    "Holdings": 3,
+    "ZERROS1E1": 0,
+    "ZERROS1E2": 1,
+    "ZERROS1E3": 0,
+    "ZERROS1E4": 1,
+    "ZERROS1E5": 1
+  },
+  {
     "Ranking": 3038,
-    "Address": "0x11b8bdc3A4F1Be25Bef72d77C7B7dE39AF87AFa6",
+    "Address": "0xa6CEAFC18E82dCa907Dde421A08041B71A3FD7A0",
     "Holdings": 2,
     "ZERROS1E1": 0,
-    "ZERROS1E2": 0,
-    "ZERROS1E3": 0,
+    "ZERROS1E2": 1,
+    "ZERROS1E3": 1,
     "ZERROS1E4": 0,
-    "ZERROS1E5": 2
+    "ZERROS1E5": 0
   },
   {
     "Ranking": 3039,
@@ -491,16 +491,6 @@
   },
   {
     "Ranking": 3050,
-    "Address": "0xC3bC613626BD68cAd057bCd85914d40De80E509e",
-    "Holdings": 2,
-    "ZERROS1E1": 1,
-    "ZERROS1E2": 1,
-    "ZERROS1E3": 0,
-    "ZERROS1E4": 0,
-    "ZERROS1E5": 0
-  },
-  {
-    "Ranking": 3051,
     "Address": "0xC39394994fDBa91b354AC3534630B4Dcb7a85977",
     "Holdings": 2,
     "ZERROS1E1": 1,
@@ -510,7 +500,7 @@
     "ZERROS1E5": 0
   },
   {
-    "Ranking": 3052,
+    "Ranking": 3051,
     "Address": "0xC31E12C2A85a5506Ec054273784bFA9ca07D4384",
     "Holdings": 2,
     "ZERROS1E1": 1,
@@ -520,7 +510,7 @@
     "ZERROS1E5": 0
   },
   {
-    "Ranking": 3053,
+    "Ranking": 3052,
     "Address": "0xAB0faBA43bca8A7C522b1737dd2d7059774853bd",
     "Holdings": 2,
     "ZERROS1E1": 0,
@@ -530,7 +520,7 @@
     "ZERROS1E5": 0
   },
   {
-    "Ranking": 3054,
+    "Ranking": 3053,
     "Address": "0xA5F9419373f0A88e3A92BF5b944A84a19DB555Ba",
     "Holdings": 2,
     "ZERROS1E1": 0,
@@ -540,7 +530,7 @@
     "ZERROS1E5": 0
   },
   {
-    "Ranking": 3055,
+    "Ranking": 3054,
     "Address": "0xA48A63a1c7872f56046f601d9257AD3e9C15D85c",
     "Holdings": 2,
     "ZERROS1E1": 0,
@@ -550,7 +540,7 @@
     "ZERROS1E5": 0
   },
   {
-    "Ranking": 3056,
+    "Ranking": 3055,
     "Address": "0xA4893aA86Bbc451c94dD7EDCffB9f09efe6b0447",
     "Holdings": 2,
     "ZERROS1E1": 0,
@@ -560,7 +550,7 @@
     "ZERROS1E5": 1
   },
   {
-    "Ranking": 3057,
+    "Ranking": 3056,
     "Address": "0xAD8Dc2D9bf4DED1a9537D1045Fd12fb77d939d2E",
     "Holdings": 2,
     "ZERROS1E1": 0,
@@ -570,7 +560,7 @@
     "ZERROS1E5": 0
   },
   {
-    "Ranking": 3058,
+    "Ranking": 3057,
     "Address": "0xAd843946683F50b10eed3d8091A8B2052DD68B1c",
     "Holdings": 2,
     "ZERROS1E1": 0,
@@ -580,7 +570,7 @@
     "ZERROS1E5": 0
   },
   {
-    "Ranking": 3059,
+    "Ranking": 3058,
     "Address": "0xAd76cDf159c8039Ea11D85e63f3C6ABe96683ef8",
     "Holdings": 2,
     "ZERROS1E1": 0,
@@ -590,17 +580,7 @@
     "ZERROS1E5": 0
   },
   {
-    "Ranking": 3060,
-    "Address": "0xAd28156B17e658A4d7b1CBeF01bee22ABc0eBDb1",
-    "Holdings": 2,
-    "ZERROS1E1": 0,
-    "ZERROS1E2": 1,
-    "ZERROS1E3": 0,
-    "ZERROS1E4": 0,
-    "ZERROS1E5": 1
-  },
-  {
-    "Ranking": 3061,
+    "Ranking": 3059,
     "Address": "0x64825ae6Af04879Edf6b1e0A39924199ccCA2720",
     "Holdings": 2,
     "ZERROS1E1": 0,
@@ -610,7 +590,7 @@
     "ZERROS1E5": 1
   },
   {
-    "Ranking": 3062,
+    "Ranking": 3060,
     "Address": "0x637BE9324C0136882785000A133b488521E57495",
     "Holdings": 2,
     "ZERROS1E1": 0,
@@ -620,7 +600,7 @@
     "ZERROS1E5": 0
   },
   {
-    "Ranking": 3063,
+    "Ranking": 3061,
     "Address": "0x63026d769f7D45FCbff3862e4A7C47c4dEfb4e29",
     "Holdings": 2,
     "ZERROS1E1": 0,
@@ -630,7 +610,7 @@
     "ZERROS1E5": 1
   },
   {
-    "Ranking": 3064,
+    "Ranking": 3062,
     "Address": "0x62A762AB467AFb32470fF467F8c4d81FcE10bcf8",
     "Holdings": 2,
     "ZERROS1E1": 0,
@@ -640,7 +620,7 @@
     "ZERROS1E5": 0
   },
   {
-    "Ranking": 3065,
+    "Ranking": 3063,
     "Address": "0x61e67FE6D159F276aEe0123cCD5dd3Bc6e02DFae",
     "Holdings": 2,
     "ZERROS1E1": 0,
@@ -648,6 +628,26 @@
     "ZERROS1E3": 1,
     "ZERROS1E4": 0,
     "ZERROS1E5": 1
+  },
+  {
+    "Ranking": 3064,
+    "Address": "0x619E0c8d78A2783DbB7022800d9ffB1C804b98FB",
+    "Holdings": 2,
+    "ZERROS1E1": 0,
+    "ZERROS1E2": 0,
+    "ZERROS1E3": 1,
+    "ZERROS1E4": 1,
+    "ZERROS1E5": 0
+  },
+  {
+    "Ranking": 3065,
+    "Address": "0xC1B4529A97cF51e4884BC2fB9b7785b003208714",
+    "Holdings": 2,
+    "ZERROS1E1": 1,
+    "ZERROS1E2": 1,
+    "ZERROS1E3": 0,
+    "ZERROS1E4": 0,
+    "ZERROS1E5": 0
   },
   {
     "Ranking": 3066,
@@ -961,17 +961,17 @@
   },
   {
     "Ranking": 3097,
-    "Address": "0xAC1281Db6B2D853F01FD1fe85cD6d6dC4096Ca7B",
+    "Address": "0x4351b28c70FD7Ca621e0FA9A977ec58Ee89d2e81",
     "Holdings": 2,
     "ZERROS1E1": 0,
-    "ZERROS1E2": 0,
+    "ZERROS1E2": 1,
     "ZERROS1E3": 0,
-    "ZERROS1E4": 1,
+    "ZERROS1E4": 0,
     "ZERROS1E5": 1
   },
   {
     "Ranking": 3098,
-    "Address": "0xA78835349DBCeA1ad9dAba94734fBa941e7d6fc5",
+    "Address": "0xa9028a5A943b268e084DE2D76b21B5Ef1F548d19",
     "Holdings": 2,
     "ZERROS1E1": 0,
     "ZERROS1E2": 0,
@@ -981,6 +981,16 @@
   },
   {
     "Ranking": 3099,
+    "Address": "0xA78835349DBCeA1ad9dAba94734fBa941e7d6fc5",
+    "Holdings": 2,
+    "ZERROS1E1": 0,
+    "ZERROS1E2": 0,
+    "ZERROS1E3": 0,
+    "ZERROS1E4": 1,
+    "ZERROS1E5": 1
+  },
+  {
+    "Ranking": 3100,
     "Address": "0xedF303E210FfeF6B1B061477F26f1eE5Ff47Dbf9",
     "Holdings": 2,
     "ZERROS1E1": 1,
@@ -988,15 +998,5 @@
     "ZERROS1E3": 0,
     "ZERROS1E4": 0,
     "ZERROS1E5": 0
-  },
-  {
-    "Ranking": 3100,
-    "Address": "0xEd80D5A03e833D05BF190e116f22E5e447b8E39a",
-    "Holdings": 2,
-    "ZERROS1E1": 1,
-    "ZERROS1E2": 0,
-    "ZERROS1E3": 0,
-    "ZERROS1E4": 0,
-    "ZERROS1E5": 1
   }
 ]
