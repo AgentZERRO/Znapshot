@@ -24,16 +24,16 @@ Here is a quick snapshot of the current token statistics and top holders.
 
 | Rank | Address | Total Holdings |
 |------|---------|----------------|
-| 4 | [0xE28***f07C2](https://explorer.zero.network/address/0xE28033a9BD54202d5f2487dd2C8518F48f4f07C2) | 50 |
-| 3 | [0x505***e3faE](https://explorer.zero.network/address/0x505216f954D09B868115B29F48cEabf5393e3faE) | 50 |
-| 2 | [0x61e***0042E](https://explorer.zero.network/address/0x61e75a8583e5eCF2A6018b138D98Bfb64F30042E) | 50 |
-| 1 | [0x733***517d4](https://explorer.zero.network/address/0x733F6AEbf69D1B80B5B88859240cA155D50517d4) | 50 |
+| 4 | [0x505***e3faE](https://explorer.zero.network/address/0x505216f954D09B868115B29F48cEabf5393e3faE) | 50 |
+| 3 | [0x61e***0042E](https://explorer.zero.network/address/0x61e75a8583e5eCF2A6018b138D98Bfb64F30042E) | 50 |
+| 2 | [0x733***517d4](https://explorer.zero.network/address/0x733F6AEbf69D1B80B5B88859240cA155D50517d4) | 50 |
+| 1 | [0xE28***f07C2](https://explorer.zero.network/address/0xE28033a9BD54202d5f2487dd2C8518F48f4f07C2) | 50 |
 | 5 | [0xAB1***3c91B](https://explorer.zero.network/address/0xAB13211F8ACCA2Cdad9fBB06E97d8b936a83c91B) | 40 |
 | 6 | [0x81c***3BcC5](https://explorer.zero.network/address/0x81cF8aed4CD8eAD1a80cFf195f0162BE5b43BcC5) | 16 |
-| 7 | [0x1aE***806aa](https://explorer.zero.network/address/0x1aE1F53F5006E3fb336a6d7E54c1c45aa55806aa) | 15 |
-| 8 | [0xB10***ac206](https://explorer.zero.network/address/0xB1062c554120b8A0834fE03FfE14eDB9bD8ac206) | 15 |
+| 7 | [0xB10***ac206](https://explorer.zero.network/address/0xB1062c554120b8A0834fE03FfE14eDB9bD8ac206) | 15 |
+| 8 | [0x1aE***806aa](https://explorer.zero.network/address/0x1aE1F53F5006E3fb336a6d7E54c1c45aa55806aa) | 15 |
 | 9 | [0x7e5***ECd2B](https://explorer.zero.network/address/0x7e5cE10826eE167de897D262fCC9976F609ECd2B) | 13 |
-| 10 | [0xDa3***4d1d1](https://explorer.zero.network/address/0xDa3863583c9FCd8A5D3506D91AAF33157124d1d1) | 10 |
+| 10 | [0x19A***f77Df](https://explorer.zero.network/address/0x19A57032bB8B8EcDa4651F1E080add6fA2Af77Df) | 10 |
 
 
 ---
@@ -43,10 +43,10 @@ Here is a quick snapshot of the current token statistics and top holders.
 | Token | Total Holders | Total Tokens Held | Average Tokens | Max Tokens | Min Tokens |
 |-------|----------------|--------------------|----------------|-------------|-------------|
 | [ZERROS1E1](https://highlight.xyz/mint/zero:0x87470544d0009cde93891a073822c03a6930f876:1) | 3796 | 3905 | 1.03 | 10 | 1 |
-| [ZERROS1E2](https://highlight.xyz/mint/zero:0x572C9543574f581E6B1c0ac979B0bec2D094847A:1) | 5144 | 5247 | 1.02 | 10 | 1 |
+| [ZERROS1E2](https://highlight.xyz/mint/zero:0x572C9543574f581E6B1c0ac979B0bec2D094847A:1) | 5145 | 5248 | 1.02 | 10 | 1 |
 | [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 5158 | 5302 | 1.03 | 10 | 1 |
-| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 3597 | 3693 | 1.03 | 10 | 1 |
-| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 2951 | 3035 | 1.03 | 10 | 1 |
+| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 3598 | 3694 | 1.03 | 10 | 1 |
+| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 2952 | 3036 | 1.03 | 10 | 1 |
 
 
 ---
