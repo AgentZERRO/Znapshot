@@ -24,7 +24,7 @@ Here is a quick snapshot of the current token statistics and top holders.
 
 | Rank | Address | Total Holdings |
 |------|---------|----------------|
-| 1 | [0xE28***f07C2](https://explorer.zero.network/address/0xE28033a9BD54202d5f2487dd2C8518F48f4f07C2) | 61 |
+| 1 | [0xE28***f07C2](https://explorer.zero.network/address/0xE28033a9BD54202d5f2487dd2C8518F48f4f07C2) | 62 |
 | 2 | [0x733***517d4](https://explorer.zero.network/address/0x733F6AEbf69D1B80B5B88859240cA155D50517d4) | 57 |
 | 3 | [0x505***e3faE](https://explorer.zero.network/address/0x505216f954D09B868115B29F48cEabf5393e3faE) | 52 |
 | 4 | [0x61e***0042E](https://explorer.zero.network/address/0x61e75a8583e5eCF2A6018b138D98Bfb64F30042E) | 51 |
@@ -44,11 +44,11 @@ Here is a quick snapshot of the current token statistics and top holders.
 |-------|----------------|--------------------|----------------|-------------|-------------|
 | [ZERROS1E1](https://highlight.xyz/mint/zero:0x87470544d0009cde93891a073822c03a6930f876:1) | 3796 | 3905 | 1.03 | 10 | 1 |
 | [ZERROS1E2](https://highlight.xyz/mint/zero:0x572C9543574f581E6B1c0ac979B0bec2D094847A:1) | 5477 | 5587 | 1.02 | 10 | 1 |
-| [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 5465 | 5614 | 1.03 | 10 | 1 |
+| [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 5466 | 5615 | 1.03 | 10 | 1 |
 | [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 3881 | 3984 | 1.03 | 10 | 1 |
-| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 3207 | 3304 | 1.03 | 10 | 1 |
-| [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 1856 | 1897 | 1.02 | 11 | 1 |
-| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 989 | 1024 | 1.04 | 6 | 1 |
+| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 3209 | 3306 | 1.03 | 10 | 1 |
+| [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 1858 | 1899 | 1.02 | 11 | 1 |
+| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 1142 | 1178 | 1.03 | 6 | 1 |
 
 
 ---
