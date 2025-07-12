@@ -44,11 +44,11 @@ Here is a quick snapshot of the current token statistics and top holders.
 |-------|----------------|--------------------|----------------|-------------|-------------|
 | [ZERROS1E1](https://highlight.xyz/mint/zero:0x87470544d0009cde93891a073822c03a6930f876:1) | 3797 | 3906 | 1.03 | 10 | 1 |
 | [ZERROS1E2](https://highlight.xyz/mint/zero:0x572C9543574f581E6B1c0ac979B0bec2D094847A:1) | 5496 | 5606 | 1.02 | 10 | 1 |
-| [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 5482 | 5631 | 1.03 | 10 | 1 |
+| [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 5483 | 5632 | 1.03 | 10 | 1 |
 | [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 3899 | 4002 | 1.03 | 10 | 1 |
-| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 3227 | 3324 | 1.03 | 10 | 1 |
+| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 3228 | 3325 | 1.03 | 10 | 1 |
 | [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 1880 | 1921 | 1.02 | 11 | 1 |
-| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 1967 | 2010 | 1.02 | 6 | 1 |
+| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 1969 | 2012 | 1.02 | 6 | 1 |
 
 
 ---
