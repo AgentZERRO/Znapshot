@@ -31,9 +31,9 @@ Here is a quick snapshot of the current token statistics and top holders.
 | 5 | [0xAB1***3c91B](https://explorer.zero.network/address/0xAB13211F8ACCA2Cdad9fBB06E97d8b936a83c91B) | 40 |
 | 6 | [0x132***aA8d1](https://explorer.zero.network/address/0x132289F7788099b07C1D12a6bFF0a79e6d8aA8d1) | 24 |
 | 7 | [0x81c***3BcC5](https://explorer.zero.network/address/0x81cF8aed4CD8eAD1a80cFf195f0162BE5b43BcC5) | 19 |
-| 8 | [0x1aE***806aa](https://explorer.zero.network/address/0x1aE1F53F5006E3fb336a6d7E54c1c45aa55806aa) | 17 |
+| 8 | [0x1aE***806aa](https://explorer.zero.network/address/0x1aE1F53F5006E3fb336a6d7E54c1c45aa55806aa) | 18 |
 | 9 | [0xB10***ac206](https://explorer.zero.network/address/0xB1062c554120b8A0834fE03FfE14eDB9bD8ac206) | 15 |
-| 10 | [0x99F***98b49](https://explorer.zero.network/address/0x99F5585Dcc32E2238634f11f32D9Be9Bd5e98b49) | 13 |
+| 11 | [0x8ca***2101a](https://explorer.zero.network/address/0x8ca1Cd24Bd7A2386f523C36832D25E468072101a) | 13 |
 
 
 ---
@@ -45,11 +45,11 @@ Here is a quick snapshot of the current token statistics and top holders.
 | [ZERROS1E1](https://highlight.xyz/mint/zero:0x87470544d0009cde93891a073822c03a6930f876:1) | 3797 | 3906 | 1.03 | 10 | 1 |
 | [ZERROS1E2](https://highlight.xyz/mint/zero:0x572C9543574f581E6B1c0ac979B0bec2D094847A:1) | 5521 | 5631 | 1.02 | 10 | 1 |
 | [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 5508 | 5657 | 1.03 | 10 | 1 |
-| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 3915 | 4018 | 1.03 | 10 | 1 |
+| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 3916 | 4019 | 1.03 | 10 | 1 |
 | [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 3253 | 3350 | 1.03 | 10 | 1 |
 | [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 1900 | 1941 | 1.02 | 11 | 1 |
-| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 1996 | 2041 | 1.02 | 6 | 1 |
-| [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 545 | 547 | 1.00 | 2 | 1 |
+| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 1997 | 2042 | 1.02 | 6 | 1 |
+| [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 709 | 711 | 1.00 | 2 | 1 |
 
 
 ---
