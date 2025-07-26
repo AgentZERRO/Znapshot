@@ -25,7 +25,7 @@ Here is a quick snapshot of the current token statistics and top holders.
 | Rank | Address | Total Holdings |
 |------|---------|----------------|
 | 1 | [0x505***e3faE](https://explorer.zero.network/address/0x505216f954D09B868115B29F48cEabf5393e3faE) | 83 |
-| 2 | [0xE28***f07C2](https://explorer.zero.network/address/0xE28033a9BD54202d5f2487dd2C8518F48f4f07C2) | 63 |
+| 2 | [0xE28***f07C2](https://explorer.zero.network/address/0xE28033a9BD54202d5f2487dd2C8518F48f4f07C2) | 64 |
 | 3 | [0x733***517d4](https://explorer.zero.network/address/0x733F6AEbf69D1B80B5B88859240cA155D50517d4) | 59 |
 | 4 | [0x61e***0042E](https://explorer.zero.network/address/0x61e75a8583e5eCF2A6018b138D98Bfb64F30042E) | 51 |
 | 5 | [0xAB1***3c91B](https://explorer.zero.network/address/0xAB13211F8ACCA2Cdad9fBB06E97d8b936a83c91B) | 40 |
@@ -33,7 +33,7 @@ Here is a quick snapshot of the current token statistics and top holders.
 | 7 | [0x81c***3BcC5](https://explorer.zero.network/address/0x81cF8aed4CD8eAD1a80cFf195f0162BE5b43BcC5) | 19 |
 | 8 | [0x1aE***806aa](https://explorer.zero.network/address/0x1aE1F53F5006E3fb336a6d7E54c1c45aa55806aa) | 18 |
 | 9 | [0xB10***ac206](https://explorer.zero.network/address/0xB1062c554120b8A0834fE03FfE14eDB9bD8ac206) | 15 |
-| 11 | [0x650***3fF32](https://explorer.zero.network/address/0x650f6E0E9Dd0f8070d58176C7aE34A84F433fF32) | 13 |
+| 11 | [0x99F***98b49](https://explorer.zero.network/address/0x99F5585Dcc32E2238634f11f32D9Be9Bd5e98b49) | 13 |
 
 
 ---
@@ -45,12 +45,12 @@ Here is a quick snapshot of the current token statistics and top holders.
 | [ZERROS1E1](https://highlight.xyz/mint/zero:0x87470544d0009cde93891a073822c03a6930f876:1) | 3798 | 3908 | 1.03 | 10 | 1 |
 | [ZERROS1E2](https://highlight.xyz/mint/zero:0x572C9543574f581E6B1c0ac979B0bec2D094847A:1) | 5569 | 5679 | 1.02 | 10 | 1 |
 | [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 5570 | 5720 | 1.03 | 10 | 1 |
-| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 3968 | 4071 | 1.03 | 10 | 1 |
-| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 3308 | 3409 | 1.03 | 10 | 1 |
-| [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 1973 | 2026 | 1.03 | 11 | 1 |
-| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 2100 | 2154 | 1.03 | 10 | 1 |
-| [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 1640 | 1658 | 1.01 | 11 | 1 |
-| [ZERROS1E9](https://highlight.xyz/mint/zero:0x5be47Faa559104A33B53bCb426Ab2f3C42e4374c:1) | 313 | 314 | 1.00 | 2 | 1 |
+| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 3970 | 4073 | 1.03 | 10 | 1 |
+| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 3310 | 3411 | 1.03 | 10 | 1 |
+| [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 1973 | 2032 | 1.03 | 11 | 1 |
+| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 2101 | 2156 | 1.03 | 10 | 1 |
+| [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 1641 | 1660 | 1.01 | 11 | 1 |
+| [ZERROS1E9](https://highlight.xyz/mint/zero:0x5be47Faa559104A33B53bCb426Ab2f3C42e4374c:1) | 526 | 530 | 1.01 | 2 | 1 |
 
 
 ---
