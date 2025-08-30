@@ -88,7 +88,7 @@ jobs:
             -exec rm -rf {} +
           find . -path ./.git -prune -o -type f \
             \( -name '*.tmp' -o -name '*.temp' -o -name '*.log' -o -name '*.cache' \) \
-            -delete
+            -exec rm -f {} +
 
       - name: Setup GPG and Commit
         if: (steps.skip_auto.outputs.skip != 'true' && github.event_name == 'push') || github.event_name == 'schedule'
@@ -146,5 +146,5 @@ jobs:
             -exec rm -rf {} + || true
           find . -path ./.git -prune -o -type f \
             \( -name '*.tmp' -o -name '*.temp' -o -name '*.log' -o -name '*.cache' \) \
-            -delete || true
+            -exec rm -f {} +
 
