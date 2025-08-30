@@ -79,10 +79,21 @@ jobs:
           git status
           echo "🔍 Untracked files:"
           git ls-files --others --exclude-standard
+      
+      - name: Clean temp artifacts (pre-commit)
+        run: |
+          set -eux
+          find . -path ./.git -prune -o -type d \
+            \( -name '__pycache__' -o -name '.pytest_cache' -o -name '.mypy_cache' -o -name '.ruff_cache' -o -name '.ipynb_checkpoints' \) \
+            -exec rm -rf {} +
+          find . -path ./.git -prune -o -type f \
+            \( -name '*.tmp' -o -name '*.temp' -o -name '*.log' -o -name '*.cache' \) \
+            -delete
 
       - name: Setup GPG and Commit
         if: (steps.skip_auto.outputs.skip != 'true' && github.event_name == 'push') || github.event_name == 'schedule'
         env:
+          GNUPGHOME: ${{ runner.temp }}/gnupg
           PERSONAL_TOKEN: ${{ secrets.GH_COMMIT_PAT }}
           GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
           GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
@@ -91,13 +102,13 @@ jobs:
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
           echo "🔐 Configuring GPG"
-          mkdir -p ~/.gnupg
-          chmod 700 ~/.gnupg
-          echo "use-agent" > ~/.gnupg/gpg.conf
-          echo "pinentry-mode loopback" >> ~/.gnupg/gpg.conf
-          echo "allow-loopback-pinentry" > ~/.gnupg/gpg-agent.conf
-          echo "default-cache-ttl 600" >> ~/.gnupg/gpg-agent.conf
-          echo "max-cache-ttl 7200" >> ~/.gnupg/gpg-agent.conf
+          mkdir -p "$GNUPGHOME"
+          chmod 700 "$GNUPGHOME"
+          echo "use-agent" > "$GNUPGHOME/gpg.conf"
+          echo "pinentry-mode loopback" >> "$GNUPGHOME/gpg.conf"
+          echo "allow-loopback-pinentry" > "$GNUPGHOME/gpg-agent.conf"
+          echo "default-cache-ttl 600" >> "$GNUPGHOME/gpg-agent.conf"
+          echo "max-cache-ttl 7200" >> "$GNUPGHOME/gpg-agent.conf"
           gpgconf --kill gpg-agent
           gpgconf --launch gpg-agent
 
@@ -123,3 +134,17 @@ jobs:
             git commit -S -m "[Auto] Verified Commit - ${{ steps.timestamp.outputs.now }}"
             git push origin HEAD
           fi
+
+      - name: Final cleanup (GPG & temps)
+        if: always()
+        run: |
+          set -eux
+          gpgconf --kill gpg-agent || true
+          [ -n "${GNUPGHOME:-}" ] && rm -rf "$GNUPGHOME" || rm -rf ~/.gnupg || true
+          find . -path ./.git -prune -o -type d \
+            \( -name '__pycache__' -o -name '.pytest_cache' -o -name '.mypy_cache' -o -name '.ruff_cache' -o -name '.ipynb_checkpoints' \) \
+            -exec rm -rf {} + || true
+          find . -path ./.git -prune -o -type f \
+            \( -name '*.tmp' -o -name '*.temp' -o -name '*.log' -o -name '*.cache' \) \
+            -delete || true
+
