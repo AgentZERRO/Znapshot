@@ -29,11 +29,11 @@ Here is a quick snapshot of the current token statistics and top holders.
 | 3 | [0x733***517d4](https://explorer.zero.network/address/0x733F6AEbf69D1B80B5B88859240cA155D50517d4) | 61 |
 | 4 | [0x61e***0042E](https://explorer.zero.network/address/0x61e75a8583e5eCF2A6018b138D98Bfb64F30042E) | 51 |
 | 5 | [0xAB1***3c91B](https://explorer.zero.network/address/0xAB13211F8ACCA2Cdad9fBB06E97d8b936a83c91B) | 40 |
-| 6 | [0x132***aA8d1](https://explorer.zero.network/address/0x132289F7788099b07C1D12a6bFF0a79e6d8aA8d1) | 28 |
-| 7 | [0x556***4605b](https://explorer.zero.network/address/0x5564Caa789AD35E72b1612D1Bf78dD295b24605b) | 23 |
+| 6 | [0x556***4605b](https://explorer.zero.network/address/0x5564Caa789AD35E72b1612D1Bf78dD295b24605b) | 30 |
+| 7 | [0x132***aA8d1](https://explorer.zero.network/address/0x132289F7788099b07C1D12a6bFF0a79e6d8aA8d1) | 28 |
 | 8 | [0x81c***3BcC5](https://explorer.zero.network/address/0x81cF8aed4CD8eAD1a80cFf195f0162BE5b43BcC5) | 20 |
 | 9 | [0x1aE***806aa](https://explorer.zero.network/address/0x1aE1F53F5006E3fb336a6d7E54c1c45aa55806aa) | 19 |
-| 12 | [0x99F***98b49](https://explorer.zero.network/address/0x99F5585Dcc32E2238634f11f32D9Be9Bd5e98b49) | 15 |
+| 12 | [0xB10***ac206](https://explorer.zero.network/address/0xB1062c554120b8A0834fE03FfE14eDB9bD8ac206) | 15 |
 
 
 ---
@@ -42,16 +42,16 @@ Here is a quick snapshot of the current token statistics and top holders.
 
 | Token | Total Holders | Total Tokens Held | Average Tokens | Max Tokens | Min Tokens |
 |-------|----------------|--------------------|----------------|-------------|-------------|
-| [ZERROS1E1](https://highlight.xyz/mint/zero:0x87470544d0009cde93891a073822c03a6930f876:1) | 3800 | 3914 | 1.03 | 10 | 1 |
-| [ZERROS1E2](https://highlight.xyz/mint/zero:0x572C9543574f581E6B1c0ac979B0bec2D094847A:1) | 5761 | 5874 | 1.02 | 10 | 1 |
-| [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 5734 | 5886 | 1.03 | 10 | 1 |
-| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 4139 | 4243 | 1.03 | 10 | 1 |
-| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 3473 | 3575 | 1.03 | 10 | 1 |
-| [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 2133 | 2194 | 1.03 | 11 | 1 |
-| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 2306 | 2362 | 1.02 | 10 | 1 |
-| [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 1791 | 1811 | 1.01 | 11 | 1 |
-| [ZERROS1E9](https://highlight.xyz/mint/zero:0x5be47Faa559104A33B53bCb426Ab2f3C42e4374c:1) | 1623 | 1637 | 1.01 | 2 | 1 |
-| [ZERROS2E1](https://highlight.xyz/mint/zero:0xF4AAC6C9657E0d508c9351478B75c19Ad3f177cD:1) | 1120 | 1133 | 1.01 | 3 | 1 |
+| [ZERROS1E1](https://highlight.xyz/mint/zero:0x87470544d0009cde93891a073822c03a6930f876:1) | 3800 | 3919 | 1.03 | 10 | 1 |
+| [ZERROS1E2](https://highlight.xyz/mint/zero:0x572C9543574f581E6B1c0ac979B0bec2D094847A:1) | 5766 | 5880 | 1.02 | 10 | 1 |
+| [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 5738 | 5890 | 1.03 | 10 | 1 |
+| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 4140 | 4244 | 1.03 | 10 | 1 |
+| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 3475 | 3577 | 1.03 | 10 | 1 |
+| [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 2137 | 2198 | 1.03 | 11 | 1 |
+| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 2308 | 2364 | 1.02 | 10 | 1 |
+| [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 1792 | 1812 | 1.01 | 11 | 1 |
+| [ZERROS1E9](https://highlight.xyz/mint/zero:0x5be47Faa559104A33B53bCb426Ab2f3C42e4374c:1) | 1625 | 1639 | 1.01 | 2 | 1 |
+| [ZERROS2E1](https://highlight.xyz/mint/zero:0xF4AAC6C9657E0d508c9351478B75c19Ad3f177cD:1) | 1141 | 1155 | 1.01 | 3 | 1 |
 
 
 ---
