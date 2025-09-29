@@ -33,7 +33,7 @@ Here is a quick snapshot of the current token statistics and top holders.
 | 7 | [0x132***aA8d1](https://explorer.zero.network/address/0x132289F7788099b07C1D12a6bFF0a79e6d8aA8d1) | 28 |
 | 8 | [0x81c***3BcC5](https://explorer.zero.network/address/0x81cF8aed4CD8eAD1a80cFf195f0162BE5b43BcC5) | 20 |
 | 9 | [0x1aE***806aa](https://explorer.zero.network/address/0x1aE1F53F5006E3fb336a6d7E54c1c45aa55806aa) | 19 |
-| 12 | [0x8ca***2101a](https://explorer.zero.network/address/0x8ca1Cd24Bd7A2386f523C36832D25E468072101a) | 15 |
+| 10 | [0x99F***98b49](https://explorer.zero.network/address/0x99F5585Dcc32E2238634f11f32D9Be9Bd5e98b49) | 15 |
 
 
 ---
@@ -49,8 +49,8 @@ Here is a quick snapshot of the current token statistics and top holders.
 | [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 3511 | 3615 | 1.03 | 10 | 1 |
 | [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 2176 | 2237 | 1.03 | 11 | 1 |
 | [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 2370 | 2428 | 1.02 | 10 | 1 |
-| [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 1831 | 1852 | 1.01 | 11 | 1 |
-| [ZERROS1E9](https://highlight.xyz/mint/zero:0x5be47Faa559104A33B53bCb426Ab2f3C42e4374c:1) | 1661 | 1676 | 1.01 | 2 | 1 |
+| [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 1832 | 1853 | 1.01 | 11 | 1 |
+| [ZERROS1E9](https://highlight.xyz/mint/zero:0x5be47Faa559104A33B53bCb426Ab2f3C42e4374c:1) | 1662 | 1677 | 1.01 | 2 | 1 |
 | [ZERROS2E1](https://highlight.xyz/mint/zero:0xF4AAC6C9657E0d508c9351478B75c19Ad3f177cD:1) | 1384 | 1401 | 1.01 | 3 | 1 |
 
 
