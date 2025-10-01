@@ -9,6 +9,9 @@ from collections import defaultdict
 import pandas as pd  # type: ignore
 import calendar
 import math
+import re
+from typing import List, Dict, Any
+from pathlib import Path
 
 # Setup paths
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -170,3 +173,86 @@ for page in range(total_pages):
         json.dump(page_data, out_file, indent=2)
 
 print(f"✅ Pagination complete: {total_pages} pages saved in Pagination/")
+
+# --- Episodes post-processing (minimal, added) ---
+
+_EP_EPISODE_COL_PATTERN = re.compile(r"^ZERROS(\d+)E(\d+)$")
+
+def _ep_detect_episode_columns(rows: List[Dict[str, Any]]) -> List[str]:
+    cols = set()
+    for r in rows:
+        for k in r.keys():
+            if _EP_EPISODE_COL_PATTERN.match(k):
+                cols.add(k)
+    return sorted(cols)
+
+def _ep_to_season_episode_name(col: str) -> str:
+    m = _EP_EPISODE_COL_PATTERN.match(col)
+    if not m:
+        raise ValueError(f"Invalid episode column: {col}")
+    season, episode = m.group(1), m.group(2)
+    return f"S{season}E{episode}"
+
+def _ep_sort_rows_by_episode_value(rows: List[Dict[str, Any]], episode_col: str) -> List[Dict[str, Any]]:
+    filtered = []
+    for r in rows:
+        v = r.get(episode_col, 0)
+        addr = r.get("Address")
+        if addr is None:
+            continue
+        if isinstance(v, (int, float)) and v > 0:
+            filtered.append(r)
+    # Stable sort so equal values keep original order
+    filtered.sort(key=lambda r: r.get(episode_col, 0) or 0, reverse=True)
+    return filtered
+
+def _ep_write_episode_files(all_rows: List[Dict[str, Any]], total_path: Path) -> None:
+    episodes_dir = total_path.parent / "Episodes"
+    episode_cols = _ep_detect_episode_columns(all_rows)
+    if not episode_cols:
+        return
+    episodes_dir.mkdir(parents=True, exist_ok=True)
+
+    for col in episode_cols:
+        se_name = _ep_to_season_episode_name(col)
+        out_dir = episodes_dir / se_name
+        out_dir.mkdir(parents=True, exist_ok=True)
+
+        ranked_rows = _ep_sort_rows_by_episode_value(all_rows, col)
+
+        # competition rank (1,1,3,4,...) over the sorted list
+        minimal_total = []
+        prev_val = None
+        prev_rank = 0
+        for idx, r in enumerate(ranked_rows, start=1):
+            v = r.get(col, 0)
+            if v != prev_val:
+                rank = idx
+                prev_val = v
+                prev_rank = rank
+            else:
+                rank = prev_rank
+            minimal_total.append({"Rank": rank, "Address": r["Address"], _ep_to_season_episode_name(col): v})
+
+        # Top100: exactly first 100 rows by position
+        minimal_top100 = minimal_total[:100]
+
+        (out_dir / f"{se_name}-Total.json").write_text(
+            json.dumps(minimal_total, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        (out_dir / f"{se_name}-Top100.json").write_text(
+            json.dumps(minimal_top100, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+
+def process_episodes_from_total() -> None:
+    base_dir = Path(__file__).resolve().parent
+    total_path = base_dir / "Total.json"
+    if not total_path.exists():
+        return
+    data = json.loads(total_path.read_text(encoding="utf-8"))
+    if not isinstance(data, list):
+        return
+    _ep_write_episode_files(data, total_path)
+# --- end Episodes post-processing ---
+
+process_episodes_from_total()
