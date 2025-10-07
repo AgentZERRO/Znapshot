@@ -26,12 +26,12 @@
   },
   {
     "Rank": 1,
-    "Address": "0x19A57032bB8B8EcDa4651F1E080add6fA2Af77Df",
+    "Address": "0xDa3863583c9FCd8A5D3506D91AAF33157124d1d1",
     "S1E2": 10
   },
   {
     "Rank": 1,
-    "Address": "0xDa3863583c9FCd8A5D3506D91AAF33157124d1d1",
+    "Address": "0x19A57032bB8B8EcDa4651F1E080add6fA2Af77Df",
     "S1E2": 10
   },
   {
@@ -81,11 +81,6 @@
   },
   {
     "Rank": 14,
-    "Address": "0xb4aaaa14ebEc184523bD453Fb8511325A5A18C59",
-    "S1E2": 2
-  },
-  {
-    "Rank": 14,
     "Address": "0xf29393374a20AF6a64C3211b208dCAF5a966365D",
     "S1E2": 2
   },
@@ -96,12 +91,12 @@
   },
   {
     "Rank": 14,
-    "Address": "0xfCCF5aEA437B4FF4D3c8b49Ff65F64432a681905",
+    "Address": "0xb4aaaa14ebEc184523bD453Fb8511325A5A18C59",
     "S1E2": 2
   },
   {
     "Rank": 14,
-    "Address": "0xadea756eA732e699161A6F47B33D262cE56538F3",
+    "Address": "0xfCCF5aEA437B4FF4D3c8b49Ff65F64432a681905",
     "S1E2": 2
   },
   {
@@ -111,7 +106,7 @@
   },
   {
     "Rank": 14,
-    "Address": "0xB830B2FD1518B04310D264704A4e46f9E083B41e",
+    "Address": "0xadea756eA732e699161A6F47B33D262cE56538F3",
     "S1E2": 2
   },
   {
@@ -122,6 +117,11 @@
   {
     "Rank": 14,
     "Address": "0x7aDA3Cd534DF8Dc4121c770555B56CA8E528619e",
+    "S1E2": 2
+  },
+  {
+    "Rank": 14,
+    "Address": "0xB830B2FD1518B04310D264704A4e46f9E083B41e",
     "S1E2": 2
   },
   {
@@ -166,7 +166,7 @@
   },
   {
     "Rank": 14,
-    "Address": "0x79aAD9Acad6054cdFB1d6916CA97641886A0C19d",
+    "Address": "0x22ee9e5b471b86eB559B9DeF9DAf4fe228A271c5",
     "S1E2": 2
   },
   {
@@ -176,12 +176,17 @@
   },
   {
     "Rank": 14,
+    "Address": "0x95f6328A532cef7E9c508298Ef9761C482B1c674",
+    "S1E2": 2
+  },
+  {
+    "Rank": 14,
     "Address": "0xC82cC9CF1337180289F06C484BBECad8578777e5",
     "S1E2": 2
   },
   {
     "Rank": 14,
-    "Address": "0x95f6328A532cef7E9c508298Ef9761C482B1c674",
+    "Address": "0x79aAD9Acad6054cdFB1d6916CA97641886A0C19d",
     "S1E2": 2
   },
   {
@@ -196,22 +201,17 @@
   },
   {
     "Rank": 14,
-    "Address": "0x22ee9e5b471b86eB559B9DeF9DAf4fe228A271c5",
-    "S1E2": 2
-  },
-  {
-    "Rank": 14,
-    "Address": "0xdF1D336CFFcD8C01D6a1AdfCab0c9691A3e60015",
-    "S1E2": 2
-  },
-  {
-    "Rank": 14,
     "Address": "0x98b1A1c5BF3F85FEc9Bc27b57A05b0BA67713a3e",
     "S1E2": 2
   },
   {
     "Rank": 14,
     "Address": "0x5257e9E8123c8DE5108D4d871Df2d221c4F37f62",
+    "S1E2": 2
+  },
+  {
+    "Rank": 14,
+    "Address": "0xdF1D336CFFcD8C01D6a1AdfCab0c9691A3e60015",
     "S1E2": 2
   },
   {
@@ -311,6 +311,16 @@
   },
   {
     "Rank": 60,
+    "Address": "0x019Ed608dD806b80193942F2A960e7AC8aBb2EE3",
+    "S1E2": 1
+  },
+  {
+    "Rank": 60,
+    "Address": "0x3e9F44209e3217a81F7913a6CD910B9a379A7895",
+    "S1E2": 1
+  },
+  {
+    "Rank": 60,
     "Address": "0x67Da918BeC73Bfe665a56FA22C3d095f290006a1",
     "S1E2": 1
   },
@@ -321,22 +331,12 @@
   },
   {
     "Rank": 60,
-    "Address": "0x3e9F44209e3217a81F7913a6CD910B9a379A7895",
+    "Address": "0xb300AA30dD33e1Ae849Cb69FA23D6Ddaf90a69BC",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x019Ed608dD806b80193942F2A960e7AC8aBb2EE3",
-    "S1E2": 1
-  },
-  {
-    "Rank": 60,
-    "Address": "0xB4BBa6864f812d04313936911431Ca2CDa9f8e82",
-    "S1E2": 1
-  },
-  {
-    "Rank": 60,
-    "Address": "0x649890078Da0f9219D73C35d648699252451c627",
+    "Address": "0x17316eE66C50Cc4b807FDC5E940F89a97c9C3282",
     "S1E2": 1
   },
   {
@@ -346,7 +346,37 @@
   },
   {
     "Rank": 60,
-    "Address": "0xb300AA30dD33e1Ae849Cb69FA23D6Ddaf90a69BC",
+    "Address": "0x00cDEbc042C87C95e439E1AeFa0Bd3a8014dA577",
+    "S1E2": 1
+  },
+  {
+    "Rank": 60,
+    "Address": "0x649890078Da0f9219D73C35d648699252451c627",
+    "S1E2": 1
+  },
+  {
+    "Rank": 60,
+    "Address": "0x1F8e8AD4A0F7a8aB0d8cB27b5AaccBb110566b9f",
+    "S1E2": 1
+  },
+  {
+    "Rank": 60,
+    "Address": "0xB57B0713B72CB43a089dce420db9aAfAAa91be8d",
+    "S1E2": 1
+  },
+  {
+    "Rank": 60,
+    "Address": "0xD7bD783b57Cd6201CC0A9d736c866223b57e02ea",
+    "S1E2": 1
+  },
+  {
+    "Rank": 60,
+    "Address": "0x22dF8f85AD9850151582F89E37237Bf0517f87DD",
+    "S1E2": 1
+  },
+  {
+    "Rank": 60,
+    "Address": "0x9277427FaeCDb247214F5b8d817E7139688bC860",
     "S1E2": 1
   },
   {
@@ -361,32 +391,7 @@
   },
   {
     "Rank": 60,
-    "Address": "0x22dF8f85AD9850151582F89E37237Bf0517f87DD",
-    "S1E2": 1
-  },
-  {
-    "Rank": 60,
-    "Address": "0xD7bD783b57Cd6201CC0A9d736c866223b57e02ea",
-    "S1E2": 1
-  },
-  {
-    "Rank": 60,
     "Address": "0x7067C50819a3b952239C64159523e7Bb4B19acB7",
-    "S1E2": 1
-  },
-  {
-    "Rank": 60,
-    "Address": "0x1F8e8AD4A0F7a8aB0d8cB27b5AaccBb110566b9f",
-    "S1E2": 1
-  },
-  {
-    "Rank": 60,
-    "Address": "0x9277427FaeCDb247214F5b8d817E7139688bC860",
-    "S1E2": 1
-  },
-  {
-    "Rank": 60,
-    "Address": "0x00cDEbc042C87C95e439E1AeFa0Bd3a8014dA577",
     "S1E2": 1
   },
   {
@@ -401,47 +406,42 @@
   },
   {
     "Rank": 60,
-    "Address": "0x17316eE66C50Cc4b807FDC5E940F89a97c9C3282",
-    "S1E2": 1
-  },
-  {
-    "Rank": 60,
-    "Address": "0xB57B0713B72CB43a089dce420db9aAfAAa91be8d",
-    "S1E2": 1
-  },
-  {
-    "Rank": 60,
     "Address": "0x7DdefC5699D351C1E8c9a29f74a939193E593626",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x97E0a1f28c9fff064b2DF8aBbF6a5d4dB374a823",
+    "Address": "0xB4BBa6864f812d04313936911431Ca2CDa9f8e82",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x7e1B9a73A1dEAA3fdFAf80a3C3A545936d79Eda5",
+    "Address": "0x93e1d5835FFBEF3e0C506C878f811A80347c0C31",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x9C9cDeE36F3080c791E4c1d046992a72a8e01b66",
+    "Address": "0x9589167DDBE4246c10e1282639710934De44A856",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x6762E837E583D3b80Fd59080d151b59eF3dFFe09",
+    "Address": "0x6AEDda33ea76c4F9E3aab46601A4eBA508a3F07B",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0xDC2EE029Dd7E6DE5Ab7C64FfA894dbf1C1aBC898",
+    "Address": "0xE2C2bbAc29a8991C21D50cFB76d56Ef455D85157",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x7bc92c012Ce5494ED9813Df4194416F3E5ec0581",
+    "Address": "0x91F684d70ced2D9789b1AA89F996b55EaF05eE8a",
+    "S1E2": 1
+  },
+  {
+    "Rank": 60,
+    "Address": "0x534D4E798B2644266E4C431545925aEB2cE764bb",
     "S1E2": 1
   },
   {
@@ -451,52 +451,52 @@
   },
   {
     "Rank": 60,
-    "Address": "0x8068BD398396B060d820745FDE9C545a38bb776d",
+    "Address": "0x48f7D45FA696Dc89fF4f2233B25490455AE19DC2",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x7fA1dA4C8Bd01566f3A6a8519378721e4F512719",
+    "Address": "0x8569bd2c1fC82512d6C246Af39225c18acE195B9",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x823fD1Be32F482cC70B61c21c4D6a7CB92C4E168",
+    "Address": "0x86c16F44BC75851a9E2E16e28366aDD78169fEA9",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x71DB4AcB731236BA67482bEE3268a80b9CFf2943",
+    "Address": "0xD4F1254C803662c46D9c21f80F4F3c15FF57e2c9",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x767d76D5838b71F06456b70b4B2eB34EaD169A6d",
+    "Address": "0x568DdEaC4ca7AC5b8b8d67cAeFbF5bd5b033DccA",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0xA2e58cFB40DA86c834b1FFd235D370c72d9b686f",
+    "Address": "0x57B2Ec90C520FFe23656B2B347a085ce8Ae3aB08",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x727A4841B9c08Ec2F4b2F6D6bc8108b8A77e86EF",
+    "Address": "0xeEBbAf298bb8B5076723d69AF61bf75a5C2ad8d6",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x7241C18533ACF5F786c5A0b5f9c2C370620c5c6f",
+    "Address": "0x574382A5dA806DdF413D6FcF1730553FCeFFe33D",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x7444b9cA731C287750348c6010CC04bA8C90112d",
+    "Address": "0x59dA03e05a9baa78C2978b3B1374D849E2be3cAB",
     "S1E2": 1
   },
   {
     "Rank": 60,
-    "Address": "0x42410c871344742Cc3a201943089C0D7fd5e1a86",
+    "Address": "0x884eFF4a9ae6A5b6A4D5ffb8658D69079Bd10e86",
     "S1E2": 1
   }
 ]
