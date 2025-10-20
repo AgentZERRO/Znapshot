@@ -31,6 +31,11 @@
   },
   {
     "Rank": 3,
+    "Address": "0x83bbe9CFCc205bb8E53cBa0b51d6db9386CE58B5",
+    "S1E8": 2
+  },
+  {
+    "Rank": 3,
     "Address": "0xce6364C714bfDF453f01b0A5E6EBA500392976fF",
     "S1E8": 2
   },
@@ -42,11 +47,6 @@
   {
     "Rank": 3,
     "Address": "0x8205E83E3eCda4d72Fed34AD9D7bC989d9B91085",
-    "S1E8": 2
-  },
-  {
-    "Rank": 3,
-    "Address": "0x83bbe9CFCc205bb8E53cBa0b51d6db9386CE58B5",
     "S1E8": 2
   },
   {
@@ -366,26 +366,6 @@
   },
   {
     "Rank": 12,
-    "Address": "0x17f43f532b3F91c1628Ff513290e730446Cb9355",
-    "S1E8": 1
-  },
-  {
-    "Rank": 12,
-    "Address": "0x17d518736Ee9341dcDc0A2498e013D33CFCDD080",
-    "S1E8": 1
-  },
-  {
-    "Rank": 12,
-    "Address": "0x8aBc16e919C61D5863b34F920dfb4Dc4a97bF036",
-    "S1E8": 1
-  },
-  {
-    "Rank": 12,
-    "Address": "0x38B05766FB7810e96891A90E594dEe3dF140c5Fe",
-    "S1E8": 1
-  },
-  {
-    "Rank": 12,
     "Address": "0xD4D80071a6E5FdedA91d140301502B9121aDD675",
     "S1E8": 1
   },
@@ -402,16 +382,6 @@
   {
     "Rank": 12,
     "Address": "0x1Ca323E658F4688996ba3Ad73F1f9e6b13448CfC",
-    "S1E8": 1
-  },
-  {
-    "Rank": 12,
-    "Address": "0x1C670dc214de4819730e7305703ec8C986B8C7fc",
-    "S1E8": 1
-  },
-  {
-    "Rank": 12,
-    "Address": "0x197008a1D3e26A97A19f46C121482969cEF95b7d",
     "S1E8": 1
   },
   {
@@ -456,6 +426,36 @@
   },
   {
     "Rank": 12,
+    "Address": "0x1C670dc214de4819730e7305703ec8C986B8C7fc",
+    "S1E8": 1
+  },
+  {
+    "Rank": 12,
+    "Address": "0x197008a1D3e26A97A19f46C121482969cEF95b7d",
+    "S1E8": 1
+  },
+  {
+    "Rank": 12,
+    "Address": "0x17f43f532b3F91c1628Ff513290e730446Cb9355",
+    "S1E8": 1
+  },
+  {
+    "Rank": 12,
+    "Address": "0x17d518736Ee9341dcDc0A2498e013D33CFCDD080",
+    "S1E8": 1
+  },
+  {
+    "Rank": 12,
+    "Address": "0x8aBc16e919C61D5863b34F920dfb4Dc4a97bF036",
+    "S1E8": 1
+  },
+  {
+    "Rank": 12,
+    "Address": "0x38B05766FB7810e96891A90E594dEe3dF140c5Fe",
+    "S1E8": 1
+  },
+  {
+    "Rank": 12,
     "Address": "0xd87120aA0E9220948DCC3D207E0b3df2e4Ade1b5",
     "S1E8": 1
   },
@@ -491,12 +491,12 @@
   },
   {
     "Rank": 12,
-    "Address": "0x689dFa80839F029a6e8ba6eeCAc87156861e0ae8",
+    "Address": "0x8BE3521dcEf6C4eb4b8fa537a4Bd84Af7a4bA5d4",
     "S1E8": 1
   },
   {
     "Rank": 12,
-    "Address": "0x9DC377624475170C839CDA895B1239a689Ed154D",
+    "Address": "0x689dFa80839F029a6e8ba6eeCAc87156861e0ae8",
     "S1E8": 1
   }
 ]
