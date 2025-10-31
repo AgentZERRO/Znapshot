@@ -25,7 +25,7 @@ Here is a quick snapshot of the current token statistics and top holders.
 | Rank | Address | Total Holdings |
 |------|---------|----------------|
 | 1 | [0x505***e3faE](https://explorer.zero.network/address/0x505216f954D09B868115B29F48cEabf5393e3faE) | 88 |
-| 2 | [0x556***4605b](https://explorer.zero.network/address/0x5564Caa789AD35E72b1612D1Bf78dD295b24605b) | 67 |
+| 2 | [0x556***4605b](https://explorer.zero.network/address/0x5564Caa789AD35E72b1612D1Bf78dD295b24605b) | 72 |
 | 3 | [0xE28***f07C2](https://explorer.zero.network/address/0xE28033a9BD54202d5f2487dd2C8518F48f4f07C2) | 66 |
 | 4 | [0x733***517d4](https://explorer.zero.network/address/0x733F6AEbf69D1B80B5B88859240cA155D50517d4) | 62 |
 | 5 | [0x61e***0042E](https://explorer.zero.network/address/0x61e75a8583e5eCF2A6018b138D98Bfb64F30042E) | 51 |
@@ -33,7 +33,7 @@ Here is a quick snapshot of the current token statistics and top holders.
 | 7 | [0xbB6***613E2](https://explorer.zero.network/address/0xbB63203FA253B667F1d8D591954F5a14ba5613E2) | 30 |
 | 8 | [0x132***aA8d1](https://explorer.zero.network/address/0x132289F7788099b07C1D12a6bFF0a79e6d8aA8d1) | 28 |
 | 9 | [0x2Aa***b3d63](https://explorer.zero.network/address/0x2Aa7C65C086b70B6963f9506C179752F88Cb3d63) | 23 |
-| 10 | [0x956***382D7](https://explorer.zero.network/address/0x95668d6D37530A20bf4Bf09b08415f97dCC382D7) | 21 |
+| 10 | [0x54E***DC833](https://explorer.zero.network/address/0x54E5C66601b8e9386f0D74b4BD2932A3CFcDC833) | 21 |
 
 
 ---
@@ -51,8 +51,8 @@ Here is a quick snapshot of the current token statistics and top holders.
 | [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 2415 | 2476 | 1.03 | 10 | 1 |
 | [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 1875 | 1897 | 1.01 | 11 | 1 |
 | [ZERROS1E9](https://highlight.xyz/mint/zero:0x5be47Faa559104A33B53bCb426Ab2f3C42e4374c:1) | 1701 | 1717 | 1.01 | 2 | 1 |
-| [ZERROS2E1](https://highlight.xyz/mint/zero:0xF4AAC6C9657E0d508c9351478B75c19Ad3f177cD:1) | 1650 | 1668 | 1.01 | 3 | 1 |
-| [ZERROS2E2](https://highlight.xyz/mint/zero:0x3b5EfaaD76f6d6DeC4168F323D7a6196051946de:1) | 765 | 864 | 1.13 | 26 | 1 |
+| [ZERROS2E1](https://highlight.xyz/mint/zero:0xF4AAC6C9657E0d508c9351478B75c19Ad3f177cD:1) | 1651 | 1669 | 1.01 | 3 | 1 |
+| [ZERROS2E2](https://highlight.xyz/mint/zero:0x3b5EfaaD76f6d6DeC4168F323D7a6196051946de:1) | 768 | 872 | 1.14 | 31 | 1 |
 
 
 ---
