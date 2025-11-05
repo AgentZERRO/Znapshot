@@ -45,14 +45,14 @@ Here is a quick snapshot of the current token statistics and top holders.
 | [ZERROS1E1](https://highlight.xyz/mint/zero:0x87470544d0009cde93891a073822c03a6930f876:1) | 3801 | 3922 | 1.03 | 10 | 1 |
 | [ZERROS1E2](https://highlight.xyz/mint/zero:0x572C9543574f581E6B1c0ac979B0bec2D094847A:1) | 5868 | 5991 | 1.02 | 10 | 1 |
 | [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 5835 | 5991 | 1.03 | 10 | 1 |
-| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 4221 | 4329 | 1.03 | 10 | 1 |
+| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 4222 | 4330 | 1.03 | 10 | 1 |
 | [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 3549 | 3654 | 1.03 | 10 | 1 |
-| [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 2210 | 2272 | 1.03 | 11 | 1 |
-| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 2423 | 2484 | 1.03 | 10 | 1 |
-| [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 1879 | 1901 | 1.01 | 11 | 1 |
-| [ZERROS1E9](https://highlight.xyz/mint/zero:0x5be47Faa559104A33B53bCb426Ab2f3C42e4374c:1) | 1704 | 1720 | 1.01 | 2 | 1 |
-| [ZERROS2E1](https://highlight.xyz/mint/zero:0xF4AAC6C9657E0d508c9351478B75c19Ad3f177cD:1) | 1671 | 1690 | 1.01 | 3 | 1 |
-| [ZERROS2E2](https://highlight.xyz/mint/zero:0x3b5EfaaD76f6d6DeC4168F323D7a6196051946de:1) | 817 | 1003 | 1.23 | 45 | 1 |
+| [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 2211 | 2273 | 1.03 | 11 | 1 |
+| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 2424 | 2485 | 1.03 | 10 | 1 |
+| [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 1880 | 1902 | 1.01 | 11 | 1 |
+| [ZERROS1E9](https://highlight.xyz/mint/zero:0x5be47Faa559104A33B53bCb426Ab2f3C42e4374c:1) | 1705 | 1721 | 1.01 | 2 | 1 |
+| [ZERROS2E1](https://highlight.xyz/mint/zero:0xF4AAC6C9657E0d508c9351478B75c19Ad3f177cD:1) | 1673 | 1692 | 1.01 | 3 | 1 |
+| [ZERROS2E2](https://highlight.xyz/mint/zero:0x3b5EfaaD76f6d6DeC4168F323D7a6196051946de:1) | 819 | 1005 | 1.23 | 45 | 1 |
 
 
 ---
