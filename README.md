@@ -30,8 +30,8 @@ Here is a quick snapshot of the current token statistics and top holders.
 | 4 | [0x733***517d4](https://explorer.zero.network/address/0x733F6AEbf69D1B80B5B88859240cA155D50517d4) | 62 |
 | 5 | [0x61e***0042E](https://explorer.zero.network/address/0x61e75a8583e5eCF2A6018b138D98Bfb64F30042E) | 51 |
 | 6 | [0x2Aa***b3d63](https://explorer.zero.network/address/0x2Aa7C65C086b70B6963f9506C179752F88Cb3d63) | 47 |
-| 7 | [0xAB1***3c91B](https://explorer.zero.network/address/0xAB13211F8ACCA2Cdad9fBB06E97d8b936a83c91B) | 40 |
-| 8 | [0x956***382D7](https://explorer.zero.network/address/0x95668d6D37530A20bf4Bf09b08415f97dCC382D7) | 40 |
+| 7 | [0x956***382D7](https://explorer.zero.network/address/0x95668d6D37530A20bf4Bf09b08415f97dCC382D7) | 40 |
+| 8 | [0xAB1***3c91B](https://explorer.zero.network/address/0xAB13211F8ACCA2Cdad9fBB06E97d8b936a83c91B) | 40 |
 | 9 | [0x45f***a9d8d](https://explorer.zero.network/address/0x45fF97387f7190711b4C6982c0ff6e54cB7a9d8d) | 38 |
 | 10 | [0xbB6***613E2](https://explorer.zero.network/address/0xbB63203FA253B667F1d8D591954F5a14ba5613E2) | 30 |
 
