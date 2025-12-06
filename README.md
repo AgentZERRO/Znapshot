@@ -44,15 +44,15 @@ Here is a quick snapshot of the current token statistics and top holders.
 |-------|----------------|--------------------|----------------|-------------|-------------|
 | [ZERROS1E1](https://highlight.xyz/mint/zero:0x87470544d0009cde93891a073822c03a6930f876:1) | 3799 | 3922 | 1.03 | 10 | 1 |
 | [ZERROS1E2](https://highlight.xyz/mint/zero:0x572C9543574f581E6B1c0ac979B0bec2D094847A:1) | 5868 | 5991 | 1.02 | 10 | 1 |
-| [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 5875 | 6033 | 1.03 | 10 | 1 |
-| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 4259 | 4367 | 1.03 | 10 | 1 |
-| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 3585 | 3690 | 1.03 | 10 | 1 |
-| [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 2250 | 2313 | 1.03 | 11 | 1 |
-| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 2485 | 2547 | 1.02 | 10 | 1 |
-| [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 1914 | 1936 | 1.01 | 11 | 1 |
-| [ZERROS1E9](https://highlight.xyz/mint/zero:0x5be47Faa559104A33B53bCb426Ab2f3C42e4374c:1) | 1740 | 1756 | 1.01 | 2 | 1 |
-| [ZERROS2E1](https://highlight.xyz/mint/zero:0xF4AAC6C9657E0d508c9351478B75c19Ad3f177cD:1) | 1805 | 1827 | 1.01 | 3 | 1 |
-| [ZERROS2E2](https://highlight.xyz/mint/zero:0x3b5EfaaD76f6d6DeC4168F323D7a6196051946de:1) | 975 | 1162 | 1.19 | 45 | 1 |
+| [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 5877 | 6035 | 1.03 | 10 | 1 |
+| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 4261 | 4369 | 1.03 | 10 | 1 |
+| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 3587 | 3692 | 1.03 | 10 | 1 |
+| [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 2252 | 2315 | 1.03 | 11 | 1 |
+| [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 2486 | 2548 | 1.02 | 10 | 1 |
+| [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 1915 | 1937 | 1.01 | 11 | 1 |
+| [ZERROS1E9](https://highlight.xyz/mint/zero:0x5be47Faa559104A33B53bCb426Ab2f3C42e4374c:1) | 1741 | 1757 | 1.01 | 2 | 1 |
+| [ZERROS2E1](https://highlight.xyz/mint/zero:0xF4AAC6C9657E0d508c9351478B75c19Ad3f177cD:1) | 1809 | 1831 | 1.01 | 3 | 1 |
+| [ZERROS2E2](https://highlight.xyz/mint/zero:0x3b5EfaaD76f6d6DeC4168F323D7a6196051946de:1) | 978 | 1165 | 1.19 | 45 | 1 |
 
 
 ---
