@@ -25,15 +25,15 @@ Here is a quick snapshot of the current token statistics and top holders.
 | Rank | Address | Total Holdings |
 |------|---------|----------------|
 | 1 | [0x556***4605b](https://explorer.zero.network/address/0x5564Caa789AD35E72b1612D1Bf78dD295b24605b) | 86 |
-| 2 | [0x2Aa***b3d63](https://explorer.zero.network/address/0x2Aa7C65C086b70B6963f9506C179752F88Cb3d63) | 43 |
-| 3 | [0x956***382D7](https://explorer.zero.network/address/0x95668d6D37530A20bf4Bf09b08415f97dCC382D7) | 40 |
-| 5 | [0x505***e3faE](https://explorer.zero.network/address/0x505216f954D09B868115B29F48cEabf5393e3faE) | 38 |
-| 4 | [0x45f***a9d8d](https://explorer.zero.network/address/0x45fF97387f7190711b4C6982c0ff6e54cB7a9d8d) | 38 |
-| 6 | [0xbB6***613E2](https://explorer.zero.network/address/0xbB63203FA253B667F1d8D591954F5a14ba5613E2) | 30 |
-| 7 | [0x54E***DC833](https://explorer.zero.network/address/0x54E5C66601b8e9386f0D74b4BD2932A3CFcDC833) | 17 |
-| 8 | [0x99F***98b49](https://explorer.zero.network/address/0x99F5585Dcc32E2238634f11f32D9Be9Bd5e98b49) | 16 |
-| 9 | [0xE28***f07C2](https://explorer.zero.network/address/0xE28033a9BD54202d5f2487dd2C8518F48f4f07C2) | 16 |
-| 10 | [0x8ca***2101a](https://explorer.zero.network/address/0x8ca1Cd24Bd7A2386f523C36832D25E468072101a) | 15 |
+| 2 | [0xE28***f07C2](https://explorer.zero.network/address/0xE28033a9BD54202d5f2487dd2C8518F48f4f07C2) | 66 |
+| 3 | [0x733***517d4](https://explorer.zero.network/address/0x733F6AEbf69D1B80B5B88859240cA155D50517d4) | 62 |
+| 4 | [0x2Aa***b3d63](https://explorer.zero.network/address/0x2Aa7C65C086b70B6963f9506C179752F88Cb3d63) | 44 |
+| 5 | [0x956***382D7](https://explorer.zero.network/address/0x95668d6D37530A20bf4Bf09b08415f97dCC382D7) | 40 |
+| 7 | [0x45f***a9d8d](https://explorer.zero.network/address/0x45fF97387f7190711b4C6982c0ff6e54cB7a9d8d) | 38 |
+| 6 | [0x505***e3faE](https://explorer.zero.network/address/0x505216f954D09B868115B29F48cEabf5393e3faE) | 38 |
+| 8 | [0xbB6***613E2](https://explorer.zero.network/address/0xbB63203FA253B667F1d8D591954F5a14ba5613E2) | 30 |
+| 9 | [0x132***aA8d1](https://explorer.zero.network/address/0x132289F7788099b07C1D12a6bFF0a79e6d8aA8d1) | 28 |
+| 10 | [0x1aE***806aa](https://explorer.zero.network/address/0x1aE1F53F5006E3fb336a6d7E54c1c45aa55806aa) | 19 |
 
 
 ---
@@ -42,12 +42,12 @@ Here is a quick snapshot of the current token statistics and top holders.
 
 | Token | Total Holders | Total Tokens Held | Average Tokens | Max Tokens | Min Tokens |
 |-------|----------------|--------------------|----------------|-------------|-------------|
-| [ZERROS1E1](https://highlight.xyz/mint/zero:0x87470544d0009cde93891a073822c03a6930f876:1) | 10 | 25 | 2.50 | 10 | 1 |
-| [ZERROS1E2](https://highlight.xyz/mint/zero:0x572C9543574f581E6B1c0ac979B0bec2D094847A:1) | 562 | 581 | 1.03 | 10 | 1 |
-| [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 579 | 590 | 1.02 | 3 | 1 |
-| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 532 | 541 | 1.02 | 3 | 1 |
-| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 504 | 515 | 1.02 | 4 | 1 |
-| [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 2255 | 2318 | 1.03 | 11 | 1 |
+| [ZERROS1E1](https://highlight.xyz/mint/zero:0x87470544d0009cde93891a073822c03a6930f876:1) | 15 | 52 | 3.47 | 10 | 1 |
+| [ZERROS1E2](https://highlight.xyz/mint/zero:0x572C9543574f581E6B1c0ac979B0bec2D094847A:1) | 1159 | 1206 | 1.04 | 10 | 1 |
+| [ZERROS1E3](https://highlight.xyz/mint/zero:0x82Bc1E1706B8270e299E9AcEaE3d6BEE894780a1:1) | 1104 | 1151 | 1.04 | 10 | 1 |
+| [ZERROS1E4](https://highlight.xyz/mint/zero:0x6def074f62A00c5FD466bCa3076d336A89BB4077:1) | 1019 | 1053 | 1.03 | 10 | 1 |
+| [ZERROS1E5](https://highlight.xyz/mint/zero:0x306C4056a9e784E1B4Ce926a399Bf9ea72C1438D:1) | 995 | 1040 | 1.05 | 10 | 1 |
+| [ZERROS1E6](https://highlight.xyz/mint/zero:0x746627343D01376A599853143C2608617e027A8f:1) | 2256 | 2319 | 1.03 | 11 | 1 |
 | [ZERROS1E7](https://highlight.xyz/mint/zero:0xc07d2E465b3661C07aDEe383f689112383e2f94d:1) | 2489 | 2551 | 1.02 | 10 | 1 |
 | [ZERROS1E8](https://highlight.xyz/mint/zero:0x95ACc120760180ABC43123af0114Be544FcbD7f1:1) | 1918 | 1940 | 1.01 | 11 | 1 |
 | [ZERROS1E9](https://highlight.xyz/mint/zero:0x5be47Faa559104A33B53bCb426Ab2f3C42e4374c:1) | 1744 | 1760 | 1.01 | 2 | 1 |
